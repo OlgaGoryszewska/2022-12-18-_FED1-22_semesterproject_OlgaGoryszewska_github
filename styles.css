@@ -1,0 +1,28 @@
+
+                         /* general codes */
+
+.logo {
+    width: 200px;
+}
+header{
+  background-color: #24253A;
+  border-bottom: #fff;
+
+}
+body{
+    margin: 0%;
+  
+  }
+
+  footer{
+    margin: 0%;
+    background-color: #24253A;
+  
+  }
+
+                        /* sections in the main */
+
+ .hero-section-fir {
+    background-color: #24253A;
+  
+  }           
