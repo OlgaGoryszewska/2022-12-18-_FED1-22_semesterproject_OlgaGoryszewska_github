@@ -1,22 +1,47 @@
 
-                         /* general codes */
+                        /* Fonts */
+@font-face {
+    font-family:"Urbanist-Semibold";
+    src: url(fonts/Urbanist-SemiBold.ttf);
+}
+ 
+
+
+
+                        /* general codes */
 
 .logo {
-    width: 200px;
+    width: 180px;
+    margin: 1.2rem 1.2rem;
+
 }
+.logo:hover   {
+    width: 200px;
+
+    } 
 header{
   background-color: #24253A;
-  border-bottom: #fff;
+  border-bottom: #fff 1px;
 
 }
 body{
     margin: 0%;
+    background-color: #24253A;
   
   }
 
 footer{
     margin: 0%;
     background-color: #24253A;
+  
+  }
+
+h1{
+    font-family: Urbanist-Semibold;
+    font-size: 3rem;
+    color: #fff;
+    margin-left: 1.2rem;
+    
   
   }
 
@@ -27,3 +52,23 @@ footer{
     background-color: #24253A;
   
   }           
+                      /* nav bar */
+
+.item-menu {
+   color: #fff;
+   background-color: #24253A;
+   font-family: Urbanist-Semibold;
+   text-decoration: none;
+   font-size: 2rem;   
+   padding: 1rem;    
+   border-bottom: #fff;          
+  } 
+  .item-menu:hover   {
+   font-size: 2.3rem;     
+   color: #66DE61;    
+   } 
+
+  .menu{
+  display: flex;    
+  flex-direction: column;         
+   }      
