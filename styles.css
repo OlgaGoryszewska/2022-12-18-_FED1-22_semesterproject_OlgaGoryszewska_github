@@ -65,24 +65,52 @@ h1{
     font-size: 2.5rem;
     color: #fff;
     background-color: #66DE61;
-    width: 12rem;
+    width: 14rem;
     height: 5rem;
     justify-content: center;
     align-content: stretch;
     align-items: center;
+    margin-bottom: -6%;
   
   
   }
   .text-hero {
+    font-family: Urbanist-Semibold;
     display:flex;
     position: relative;
-    font-family: Urbanist-SemiBold;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #fff;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
    
+  }
+  .aside-text{
+    width: 22rem;
+    display: flex;
+    font-family: Urbanist-Semibold;
+    font-size: 2rem;
+    color: #fff;
+    flex-direction: column;
+    background-color: black;
+    padding: 2rem;
+    
+  }
+  spam {
+    color: #66DE61;
+  }
+
+  .buy-button-big{
+    color: #fff;
+    background-color: #66DE61;
+    font-family: Urbanist-Semibold;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+
   }
 
 
