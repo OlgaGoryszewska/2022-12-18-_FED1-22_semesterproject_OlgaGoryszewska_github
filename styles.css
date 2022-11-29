@@ -4,10 +4,6 @@
     font-family:"Urbanist-Semibold";
     src: url(fonts/Urbanist-SemiBold.ttf);
 }
- 
-
-
-
                         /* general code */
 
 .logo {
@@ -41,10 +37,21 @@ h1{
     font-size: 3rem;
     color: #fff;
     margin-left: 1.2rem;
+    margin-bottom: 0.5rem;
   
   }
+
   h2{
-    font-family: Urbanist-Black;
+    font-family: Urbanist-Semibold;
+    font-size: 1rem;
+    color: #fff;
+    margin-left: 1.2rem;
+    margin-top: 0.5rem;
+  
+  }
+
+  h3{
+    font-family: Urbanist-Semibold;
     font-size: 3rem;
     color: #fff;
     margin-left: 1.2rem;
@@ -52,12 +59,13 @@ h1{
   }
   .news{
     display:flex;
+    position: relative;
     font-family: Santoshi-Medium;
     font-size: 2rem;
     color: #fff;
     background-color: #66DE61;
-    width: 6.5rem;
-    height: 3.5rem;
+    width: 10rem;
+    height: 4rem;
     justify-content: center;
     align-content: stretch;
     align-items: center;
@@ -73,11 +81,15 @@ h1{
   }  
   
 .night-museum{
+  width: 100%;
+
+}   
+.sceletor{
   width: 50%;
 
 }   
   
-  }           
+             
                       /* nav bar */
 
 .item-menu {
