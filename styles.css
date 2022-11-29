@@ -8,7 +8,7 @@
 
 
 
-                        /* general codes */
+                        /* general code */
 
 .logo {
     width: 180px;
@@ -41,7 +41,27 @@ h1{
     font-size: 3rem;
     color: #fff;
     margin-left: 1.2rem;
-    
+  
+  }
+  h2{
+    font-family: Urbanist-Black;
+    font-size: 3rem;
+    color: #fff;
+    margin-left: 1.2rem;
+  
+  }
+  .news{
+    display:flex;
+    font-family: Santoshi-Medium;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #66DE61;
+    width: 6.5rem;
+    height: 3.5rem;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+  
   
   }
 
@@ -50,6 +70,11 @@ h1{
 
  .hero-section-fir {
     background-color: #24253A;
+  }  
+.night-museum{
+  width: 50%;
+
+}   
   
   }           
                       /* nav bar */
@@ -60,12 +85,13 @@ h1{
    font-family: Urbanist-Semibold;
    text-decoration: none;
    font-size: 2rem;   
-   padding: 1rem;    
-   border-bottom: #fff;          
+   padding: 2rem;    
+          
   } 
 .item-menu:hover   {
    font-size: 2.3rem;     
-   color: #66DE61;    
+   color: #66DE61; 
+   border-color: #66DE61;   
    } 
 
    
@@ -80,7 +106,9 @@ h1{
 #menu-checkbox:checked ~ .menu {
     display: flex;    
     flex-direction: column;    
-    float: right;     
+    float: inline-start;  
+    border-bottom: 1px #fff;
+    
 }   
 .hamburger-icon {
     display: flex;
