@@ -7,8 +7,8 @@
                         /* general code */
 
 .logo {
-    width: 180px;
-    margin: 1.2rem 1.2rem;
+    width: 150px;
+    margin: 1rem 1rem;
 
 }
 .logo:hover   {
@@ -17,7 +17,8 @@
     } 
 header{
   background-color: #24253A;
-  border-bottom: #fff 1px;
+  border-bottom:1px #fff;
+  border-bottom-style: solid;
 
 }
 body{
@@ -34,7 +35,7 @@ footer{
 
 h1{
     font-family: Urbanist-Semibold;
-    font-size: 3rem;
+    font-size: 3.2rem;
     color: #fff;
     margin-left: 1.2rem;
     margin-bottom: 0.5rem;
@@ -52,15 +53,15 @@ h1{
 
   h3{
     font-family: Urbanist-Semibold;
-    font-size: 3rem;
+    font-size: 2.7rem;
     color: #fff;
     margin-left: 1.2rem;
   
   }
   .news{
+    font-family: Satoshi-Black;
     display:flex;
     position: relative;
-    font-family: Santoshi-Medium;
     font-size: 2rem;
     color: #fff;
     background-color: #66DE61;
@@ -71,6 +72,16 @@ h1{
     align-items: center;
   
   
+  }
+  .text-hero {
+    display:flex;
+    position: relative;
+    font-family: Urbanist-SemiBold;
+    font-size: 1rem;
+    color: #fff;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+   
   }
 
 
@@ -98,7 +109,9 @@ h1{
    font-family: Urbanist-Semibold;
    text-decoration: none;
    font-size: 2rem;   
-   padding: 2rem;    
+   padding: 2rem;  
+   border-bottom:1px #fff;
+   border-bottom-style: solid;  
           
   } 
 .item-menu:hover   {
@@ -129,6 +142,5 @@ h1{
     align-self: center;
     float: right;
     color: #fff;         
-    width: 3rem;
-    top: 4rem;
+
 }   
