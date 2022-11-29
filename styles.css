@@ -178,3 +178,9 @@ h1{
     padding-right: 1rem;     
 
 }   
+
+.hero-container{
+  display: flex;
+  flex-direction: row;
+   /*a lign-items: flex-end */
+}   
