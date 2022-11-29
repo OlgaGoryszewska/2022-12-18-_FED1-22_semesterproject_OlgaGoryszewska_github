@@ -81,6 +81,7 @@ h1{
     color: #fff;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
+    line-height: 1.6rem;
    
   }
 
@@ -93,6 +94,8 @@ h1{
   
 .night-museum{
   width: 100%;
+ clip: rect(10% 0% 0% 0%);
+  
 
 }   
 .sceletor{
