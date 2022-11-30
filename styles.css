@@ -95,10 +95,7 @@ display: none;
 
 
 }   
-.sceletor{
-  width: 50%;
-
-}   
+ 
 .news{
   font-family: Satoshi-Black;
   display:flex;
@@ -180,6 +177,7 @@ spam {
          
  } 
  .program-wraper {
+  position: relative;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -208,8 +206,10 @@ spam {
 
 } 
 .sceletor{
+  display: flex;
+  position: relative;
   grid-column: 3 ;
-
+z-index: 2;
   
    } 
 
