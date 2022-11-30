@@ -176,6 +176,7 @@ spam {
  flex-direction: column;
  gap: 1rem;
  margin-left: 1.2rem;
+ 
          
  } 
  .program-wraper {
@@ -185,6 +186,7 @@ spam {
   background-color: #fff;
   border-radius: 25px;
   width: 22rem;
+  height: 9rem;
   
 
   } 
@@ -216,6 +218,19 @@ spam {
 .buy-button-small {
   grid-column: 2 ;
   grid-row: 2;
+  position: relative;
+  color: #fff;
+  background-color: #66DE61;
+  font-family: Urbanist-Semibold;
+  font-size: 1.2rem;
+  text-decoration: none;
+ display: flex;
+ border-radius: 20px;
+ align-content: space-between;
+ justify-content: space-around;
+ align-items: center;
+ height: 33px;
+}
   
    } 
 
