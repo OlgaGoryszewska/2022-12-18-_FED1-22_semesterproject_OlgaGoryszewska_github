@@ -61,7 +61,7 @@ h1{
 
   h2{
     font-family: Urbanist-Semibold;
-    font-size: 0.5rem;
+    font-size: 1.2rem;
     color: #fff;
     margin-left: 1.2rem;
     margin-top: 0.5rem;
@@ -243,8 +243,6 @@ spam {
   
    } 
 
-  
-
 .buy-button-small {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -262,6 +260,12 @@ spam {
   align-items: center;
   height: 33px;
 }
+.program-undertext{
+  font-size: 1.2rem;
+  color: #24253A;    
+
+
+} 
     
              
                       /* menu bar */
@@ -310,12 +314,7 @@ spam {
     padding-right: 1rem;     
 
 }   
-.program-undertext{
-  font-size: 0.5rem;
-  color: #fff;    
-
-
-}   
+  
 
                    /* */ 
 @media screen and (min-width:601px) {
