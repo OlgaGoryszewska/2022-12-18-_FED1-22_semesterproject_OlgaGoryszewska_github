@@ -33,7 +33,7 @@ header{
 body{
     margin: 0%;
     background-color: #24253A;
-  
+    width: 100%;
   }
 
 footer{
@@ -109,8 +109,8 @@ h1{
 }   
 
 .park{
-display: none;
-
+  display: none;
+  
 
 }   
  
@@ -207,6 +207,7 @@ spam {
   
 
   } 
+  
   .event-heading {
     position: relative;
     margin-left: 1.2rem;
@@ -321,11 +322,59 @@ spam {
    .wraper-container {
     flex-direction: row;
  }
+
+.hero-section-fir{
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 4;
+  width: 100%;
+  column-gap: 10px;
+  row-gap: 15px;
+  justify-content: space-between;
+  
+}  
+.park{
+  display: flex;
+  grid-row:1;
+  grid-column: 2;
+  width: 425px;
+  height: 304px;
+  object-fit: cover;
+  
+  
+
+}    
+.night-museum{
+  grid-column: 1;
+  grid-row: 2/3;
+  width: 637px;
+  height: 637px;  
+  object-fit: cover;
+
+  
 }
+.news {
+  grid-column: 1;
+  grid-row: 2;
+  
+}
+.text-hero {
+  grid-column: 1/2;
+  grid-row: 1;
+  top:0;
+  
+}
+.hero-container {
+  grid-column: 2;
+  grid-row: 2;
+
+
+  
+}
+
   
 }
 
     
     
-     {
-      {
+ 
