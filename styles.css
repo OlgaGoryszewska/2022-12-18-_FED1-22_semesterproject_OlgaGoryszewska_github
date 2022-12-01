@@ -20,7 +20,7 @@ img {
   color: #66DE61;
 
     } 
-    
+
 header{
   position: sticky;
   top: 0%;
@@ -262,11 +262,23 @@ spam {
   align-items: center;
   height: 33px;
 }
-.program-undertext{
+.program-undertext {
   font-size: 1.2rem;
   color: #24253A;    
 
 
+} 
+.more-program {
+  font-family: Urbanist-Semibold;
+  color: #24253A;
+  padding: 2rem;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+} 
+.more-text-program{
+  color: #24253A;
+
+ 
 } 
     
              
