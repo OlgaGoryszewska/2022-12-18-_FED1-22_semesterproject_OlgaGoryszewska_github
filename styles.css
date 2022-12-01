@@ -61,7 +61,7 @@ h1{
 
   h2{
     font-family: Urbanist-Semibold;
-    font-size: 1rem;
+    font-size: 2rem;
     color: #fff;
     margin-left: 1.2rem;
     margin-top: 0.5rem;
@@ -72,10 +72,22 @@ h1{
     font-family: Urbanist-Semibold;
     font-size: 2.7rem;
     color: #fff;
+    margin-top: 0rem;
     margin-left: 1.2rem;
     margin-bottom: 0.7rem;
+    padding-top: 2rem;
     
-  
+  }
+
+  h4{
+    font-family: Urbanist-Semibold;
+    font-size: 3rem;
+    color: #24253A;
+    margin-top: 0rem;
+    margin-left: 1.2rem;
+    margin-bottom: 0.7rem;
+    padding-top: 2rem;
+    
   }
   
 
@@ -133,6 +145,7 @@ display: none;
   top: -10rem;
  
 }
+
 .aside-text{
   display: flex;
   position: relative;
@@ -178,18 +191,18 @@ spam {
  display: flex;
  flex-direction: column;
  gap: 1rem;
- margin-left: 1.2rem;
- 
+ margin-left: 0.7rem;
+ margin-right: 0.7rem;
          
  } 
  .program-wraper {
   position: relative;
   display: grid;
-  grid-template-columns: 130px 70px 1fr 140px;
+  grid-template-columns: 130px 80px 1fr 140px;
   grid-template-rows: 45px 45px 45px;
   background-color: #fff;
   border-radius: 25px;
-  width: 22rem;
+  width: 23rem;
   height: 9rem;
   
 
@@ -211,6 +224,9 @@ spam {
   grid-column-end: 3;
   grid-row: 3;
   margin-left: 1.2rem;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #24253A;
 
 } 
 .sceletor{
@@ -222,9 +238,7 @@ spam {
   height: 120px;
   border-radius: 20px;
   margin: 0.7rem;
-
-  
-
+  object-fit: cover;
 
   
    } 
@@ -241,17 +255,14 @@ spam {
   font-family: Urbanist-Semibold;
   font-size: 1.2rem;
   text-decoration: none;
- display: flex;
- border-radius: 20px;
- align-content: space-between;
- justify-content: space-around;
- align-items: center;
- height: 33px;
+  display: flex;
+  border-radius: 20px;
+  align-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  height: 33px;
 }
-  
-   } 
-
-  
+    
              
                       /* menu bar */
 
@@ -299,5 +310,23 @@ spam {
     padding-right: 1rem;     
 
 }   
+.program-undertext{
+  color: #24253A;  
+  font-size: 1.5rem;  
+
+
+}   
 
                    /* */ 
+@media screen and (min-width:601px) {
+   .wraper-container {
+    flex-direction: row;
+ }
+}
+  
+}
+
+    
+    
+     {
+      {
