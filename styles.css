@@ -16,10 +16,11 @@ img {
     margin: 1rem 1rem;
 
 }
-.logo:hover   {
+.logo:hover {
   color: #66DE61;
 
     } 
+    
 header{
   position: sticky;
   top: 0%;
