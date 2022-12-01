@@ -61,7 +61,7 @@ h1{
 
   h2{
     font-family: Urbanist-Semibold;
-    font-size: 2rem;
+    font-size: 0.5rem;
     color: #fff;
     margin-left: 1.2rem;
     margin-top: 0.5rem;
@@ -311,8 +311,8 @@ spam {
 
 }   
 .program-undertext{
-  color: #24253A;  
-  font-size: 1.5rem;  
+  font-size: 0.5rem;
+  color: #fff;    
 
 
 }   
