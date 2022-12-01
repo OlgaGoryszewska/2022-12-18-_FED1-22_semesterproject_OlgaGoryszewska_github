@@ -326,19 +326,19 @@ spam {
 .hero-section-fir{
   display: grid;
   grid-template-columns: 2;
-  grid-template-rows: 4;
+  grid-template-rows: 3;
   width: 100%;
-  column-gap: 10px;
+  column-gap: 5rem;
   row-gap: 15px;
-  justify-content: space-between;
+ 
   
 }  
 .park{
   display: flex;
-  grid-row:1;
   grid-column: 2;
-  width: 425px;
-  height: 304px;
+  grid-row: 2;
+  width: 500px;
+  height: 350px;
   object-fit: cover;
   
   
@@ -347,27 +347,31 @@ spam {
 .night-museum{
   grid-column: 1;
   grid-row: 2/3;
-  width: 637px;
-  height: 637px;  
+  width: 1000px;
+  height: 1000px;  
   object-fit: cover;
 
   
 }
 .news {
   grid-column: 1;
-  grid-row: 2;
+  grid-row: line 1;
+  z-index: 1;
+ 
+
   
 }
 .text-hero {
-  grid-column: 1/2;
+  grid-column-start: 1;
+  grid-column-end: 2;
   grid-row: 1;
   top:0;
   
 }
 .hero-container {
   grid-column: 2;
-  grid-row: 2;
-
+  grid-row: line 2;
+  margin-bottom: 0;
 
   
 }
