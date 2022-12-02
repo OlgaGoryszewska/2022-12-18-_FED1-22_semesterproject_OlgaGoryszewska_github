@@ -16,8 +16,7 @@ img {
     margin: 1rem 1rem;
 
 }
-.logo:hover{
-  color: #66DE61;
+.logo:hover ~ 
 
 }
 
