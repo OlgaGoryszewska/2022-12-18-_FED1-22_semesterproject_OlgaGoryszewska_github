@@ -80,8 +80,8 @@ h1{
 
   h4{
     font-family: Urbanist-Semibold;
-    font-size: 3rem;
-    color: #24253A;
+    font-size: 4rem;
+    color: #fff;
     margin-top: 0rem;
     margin-left: 1.2rem;
     margin-bottom: 0.7rem;
@@ -308,12 +308,14 @@ spam {
   align-items: center;
   height: 33px;
 }
+
 .program-undertext {
   font-size: 1.2rem;
   color: #24253A;    
 
 
 } 
+
 .more-program {
   font-family: Urbanist-Semibold;
   color: #24253A;
@@ -330,12 +332,46 @@ spam {
 } 
                       /* secound section */
 
-.hero-section-thi {
-  color: #2469CEB;
+
   
-} 
+
                       /* third section*/
-    
+.hero-section-thir {
+ background-color: #EC6830;  
+}            
+
+.explore-header{
+  background-color: #469CEB;  
+
+ }     
+.tag-news {
+  font-family: Satoshi-Black;
+  display:flex;
+  position: relative;
+  font-size: 2.5rem;
+  color: #fff;
+  background-color: #F5C650;
+  width: 14rem;
+  height: 5rem;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  margin-bottom: -6%;
+  margin-top: 0rem;
+  z-index: 1;
+}
+
+.kids-text{
+  background-color: #fff;  
+  padding-top: 1rem;
+  margin-top: 0;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+ 
+ }   
+                      /* four section*/
              
                       /* menu bar */
 
@@ -478,18 +514,6 @@ margin-left: 0;
    
     
     } 
-
-
-
-
-
-
-
-
-
-
-
-
 
                     /* */ 
 @media screen and (min-width:601px) {
