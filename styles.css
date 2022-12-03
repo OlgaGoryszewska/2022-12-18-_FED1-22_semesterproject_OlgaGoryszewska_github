@@ -16,9 +16,13 @@ img {
     margin: 1rem 1rem;
 
 }
-.logo:hover ~ 
+
+.logo-footer {
+  width: 100px;
+  margin: 1rem 1rem;
 
 }
+
 
 header{
   position: sticky;
@@ -36,14 +40,9 @@ body{
     width: 100%;
   }
 
-footer{
-    margin: 0%;
-    background-color: #24253A;
-  
-  }
   p {
     font-family: Urbanist-Semibold;
-    font-size: 1rem;
+    font-size: 15px;
    
   
   }
@@ -89,10 +88,58 @@ h1{
     padding-top: 2rem;
     
   }
+                       /* menu bar */
+
+.item-menu {
+  color: #fff;
+  background-color: #24253A;
+  font-family: Urbanist-Semibold;
+  text-decoration: none;
+  font-size: 2rem;   
+  padding: 2rem;  
+  border-bottom:1px #fff;
+  border-bottom-style: solid;  
+         
+ } 
+.item-menu:hover   {
+  font-size: 2.3rem;     
+  color: #66DE61; 
+  border-color: #66DE61;   
+  } 
+
+  
+.menu {
+   display: none;    
+       
+}  
+#menu-checkbox{
+    display: none; 
+           
+}  
+#menu-checkbox:checked ~ .menu {
+   display: flex;    
+   flex-direction: column;    
+   float: inline-start;  
+   border-bottom: 2px #fff;
+   
+}   
+.hamburger-icon {
+   display: flex;
+   position: relative;
+   font-size: 2rem;
+   align-self: center;
+   float: right;
+   color: #fff;    
+   padding-top: 2.4rem;
+   padding-right: 1rem;     
+
+}   
   
 
                         /* sections in the main */
+                        
 
+                        /*first section */
  .hero-section-fir {
     background-color: #24253A;
     display: flex;
@@ -280,8 +327,14 @@ spam {
 .more-text-program{
   color: #24253A;
 
- 
 } 
+                      /* secound section */
+
+.hero-section-thi {
+  color: #2469CEB;
+  
+} 
+                      /* third section*/
     
              
                       /* menu bar */
@@ -332,7 +385,113 @@ spam {
 }   
   
 
-                   /* */ 
+                   /*footer */ 
+footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 9;
+  background-color: #24253A;
+  color: #fff;
+  font-size: 1rem;
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+  margin-bottom: 4rem;
+  row-gap: 0.2rem;
+  column-gap: 0;
+  
+                  
+}                 
+
+.logo-footer{
+margin-left: 0;
+ grid-column: 1;
+ grid-row: 1;
+                  
+}    
+.Hours-footer-heading{
+  grid-column: 1;
+  grid-row: 2;
+  font-size: 1.5rem;
+                   
+ }    
+
+.hours-footer{
+  grid-column-start: 1;
+  grid-column-end: line3;
+  grid-row: 3;
+
+}      
+
+.admission-footer-header{
+  grid-column: 1;
+  grid-row: 4;
+  font-size: 1.5rem;
+  display: flex;
+
+  }  
+
+.admission-footer{
+  display: flex;
+  position: relative;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 5;
+
+    } 
+
+.lociation-footer-header{
+  grid-column: 1;
+  grid-row: 6;
+  font-size: 1.5rem;
+  } 
+
+.lociation-footer{
+    grid-column: 1;
+    grid-row: 7;
+    
+    } 
+.contact-footer-header{
+  grid-column: 2;
+  grid-row: 6;
+  font-size: 1.5rem;
+  
+  } 
+.contact-footer{
+    grid-column: 2;
+    grid-row: 7;
+    
+    } 
+.newsletter-text{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 8;
+  font-size: 1.5rem;
+  
+  } 
+#email-newsletter{
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 9;
+    width: 16rem;
+    height: 4rem;
+   
+    
+    } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    /* */ 
 @media screen and (min-width:601px) {
 
 .wraper-container {
@@ -407,8 +566,55 @@ margin-top: -13rem;
   height: 20rem;
   } 
   
+footer{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5;
+    margin-left: 3rem;
+    margin-right: 1.2rem;
+    margin-bottom: 4rem;
+    row-gap: 0.2rem;
+    column-gap: 6rem;
+                    
+  }    
+.admission-footer{
+  grid-column-end: 2;
+  }  
+.lociation-footer-header{
+    grid-column: 2;
+    grid-row: 2;
+    
+    } 
+.lociation-footer{
+    grid-column: 2;
+    grid-row: 3;
+    
+    } 
+.contact-footer-header{
+  grid-row: 4;
+
+  
+  } 
+.contact-footer{
+    grid-column: 2;
+    grid-row:5;
+    
+    } 
+.newsletter-text{
+  grid-column: 3;
+  grid-row: 2;
+  font-size: 1.5rem;
+  
+  } 
+#email-newsletter{
+    grid-column: 3;
+    grid-row: 3;
+    width: 16rem;
+    height: 4rem;
+    
+    }  
+  
 }
 
-    
+
     
  
