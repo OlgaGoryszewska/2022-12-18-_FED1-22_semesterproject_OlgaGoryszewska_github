@@ -238,6 +238,14 @@ spam {
   line-height: 1rem;
 
 }
+
+.buy-button-big:hover {
+  color: #24253A;
+  border-color: #24253A;
+  background-color: #fff;
+
+
+}
                       /* secound section */
 
 
@@ -265,9 +273,10 @@ spam {
   border-radius: 25px;
   width: 23rem;
   height: 9rem;
-  
-
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   } 
+
+ 
   
   .event-heading {
     position: relative;
@@ -321,8 +330,15 @@ spam {
   justify-content: space-around;
   align-items: center;
   height: 33px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.buy-button-small:hover {
+  color: #24253A;
+  border-color: #24253A;
+  background-color: #fff;
 
+
+}
 .program-undertext {
   font-size: 1.2rem;
   color: #24253A;    
@@ -340,6 +356,8 @@ spam {
   margin-top: -13rem;
 
 } 
+
+
 .more-text-program{
   color: #24253A;
 
@@ -405,6 +423,7 @@ display: none;
   font-size: 1.2rem;
   margin-bottom: 3rem;
   margin-top: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 
 } 
@@ -482,6 +501,7 @@ z-index: 1;
   padding-top: 2rem;
   font-size: 1.2rem;
   margin-bottom: 5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 } 
 
@@ -531,7 +551,11 @@ z-index: 1;
     padding-right: 1rem;     
 
 }   
-  
+.hamburger-icon:hover {
+ color: #66DE61;
+
+
+}
 
                    /*footer */ 
 footer{
