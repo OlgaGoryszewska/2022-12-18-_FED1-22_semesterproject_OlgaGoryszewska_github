@@ -99,6 +99,22 @@ h1{
     padding-top: 2rem;
     
   }
+  .more a:hover {
+   font-size: 1.3rem;
+
+  }
+  .more:hover {
+    font-size: 1.3rem;
+ 
+   }
+   .more a:active {
+    color: #66DE61;
+ 
+   }
+   .more:active {
+     color: #66DE61;
+  
+    }
                        /* menu bar */
 
 .item-menu {
@@ -557,6 +573,23 @@ z-index: 1;
 
 }
 
+
+
+/*********************************        PROGRAM PAGE       *********************************/   
+
+.program-page-text {
+  color: #fff;
+}
+.program-page-undertext{
+  color: #fff;
+}
+.program-grid{
+  display: grid;
+  grid-template-columns: 2;
+  
+}
+
+
                    /*footer */ 
 footer{
   display: grid;
@@ -570,6 +603,7 @@ footer{
   margin-bottom: 4rem;
   row-gap: 0.2rem;
   column-gap: 0;
+
   
                   
 }                 
