@@ -583,12 +583,41 @@ z-index: 1;
 .program-page-undertext{
   color: #fff;
 }
-.program-grid{
+
+.wraper-container-grid{
   display: grid;
-  grid-template-columns: 2;
+  grid-template-columns: 1fr;
+  flex-direction: row;
+  gap: 1.2rem;
+  margin-left: 0.6rem;
   
 }
 
+.main-program {
+  background-color: #469CEB;
+}
+.program-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.program-page-wraper {
+  position: relative;
+  display: grid;
+  grid-template-columns: 130px 80px 1fr 140px;
+  grid-template-rows: 45px 45px 45px;
+  background-color: #fff;
+  border-radius: 25px;
+  width: 23rem;
+  height: 9rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  } 
+/*********************************        EXPLORE PAGE       *********************************/   
+/*********************************        EXHIBITION PAGE       *********************************/  
+/*********************************        CONTACT PAGE       *********************************/   
+/*********************************        BUYTICKET PAGE       *********************************/   
+/*********************************        BUYSUCCESS PAGE       *********************************/    
+/*********************************        ABOUT US PAGE       *********************************/   
 
                    /*footer */ 
 footer{
@@ -832,9 +861,24 @@ footer{
   font-size: 1.2rem;
 
 }
+.wraper-container-grid{
+  
+  grid-template-columns: 1fr 1fr; 
+  width: 100%;
+  justify-self: center;
 
 }
+.program-page-wraper {
+  position: relative;
+  display: grid;
+  grid-template-columns: 130px 80px 1fr 140px;
+  grid-template-rows: 45px 45px 45px;
+  background-color: #fff;
+  border-radius: 25px;
+  width: 30rem;
+  height: 9rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  } 
 
-
-    
+}
  
