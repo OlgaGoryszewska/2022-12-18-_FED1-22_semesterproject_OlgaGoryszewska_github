@@ -77,11 +77,22 @@ h1{
     padding-top: 2rem;
     
   }
+  h4 {
+    font-family: Urbanist-SemiBold;
+    font-size: 3rem;
+    color: #24253A;
+    margin-top: 0rem;
+    margin-left: 1.2rem;
+    margin-bottom: 0.7rem;
+    padding-top: 2rem;
+    
+  }
 
-  h4{
-    font-family: Urbanist-Semibold;
-    font-size: 4rem;
-    color: #fff;
+
+  h5 {
+    font-family: Urbanist-SemiBold;
+    font-size: 2.7rem;
+    color: #24253A;
     margin-top: 0rem;
     margin-left: 1.2rem;
     margin-bottom: 0.7rem;
@@ -117,6 +128,7 @@ h1{
            
 }  
 #menu-checkbox:checked ~ .menu {
+  position: relative;
    display: flex;    
    flex-direction: column;    
    float: inline-start;  
@@ -136,7 +148,7 @@ h1{
 }   
   
 
-                        /* sections in the main */
+                        /* SECTIONS IN THE MAIN */
                         
 
                         /*first section */
@@ -338,6 +350,8 @@ spam {
   
 
                       /* third section*/
+
+
 .hero-section-thir {
  background-color: #EC6830;  
  padding-bottom: 2rem;
@@ -346,7 +360,11 @@ spam {
 .explore-header{
   background-color: #469CEB;  
 
- }     
+ } 
+ .explore-header-secound {
+ color: #24253A;  
+
+ } 
 .tag-news {
   font-family: Satoshi-Black;
   display:flex;
@@ -370,7 +388,6 @@ spam {
   margin-top: 0;
   padding-left: 1.2rem;
   padding-right: 1.2rem;
-  padding-bottom: 1rem;
   margin-bottom: 0;
   font-size: 1.2rem;
  
@@ -386,31 +403,87 @@ display: none;
   color: #24253A;
   padding: 2rem;
   font-size: 1.2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   margin-top: 0;
 
 
 } 
                       /* four section*/
- .hero-section-four    {
+ .hero-section-four {
 background-color: #EC6830;
 border-bottom:solid 1px #fff;
-
-
 }      
 
+.tag-news-exhibition{
+margin-top: 0;
+font-family: Satoshi-Black;
+display:flex;
+position: relative;
+font-size: 2.5rem;
+color: #fff;
+background-color: #66DE61;
+width: 14rem;
+height: 5rem;
+justify-content: center;
+align-content: stretch;
+align-items: center;
+margin-bottom: -6%;
+margin-top: 0rem;
+z-index: 1;
 
+
+
+} 
+.date-scientist{
+  margin-top: 0;
+  font-family: Satoshi-Black;
+  display:flex;
+  position: relative;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #E9638A;
+  width: 10rem;
+  height: 3rem;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  margin-top: -3rem;
+  z-index: 1;
+  margin-bottom: 0;
+} 
+
+
+.header-scientist-hero {
+  background-color: #fff;
+  margin: 0;
+  padding-bottom: 1.2rem;
+  padding-left: 1.2rem;
+  font-size: 3rem;
+
+}
+
+.text-scientist-first {
+  padding-left: 1.2rem;
+  background-color: #fff;
+  margin: 0%;
+  padding-right: 1.2rem;
+  font-size: 1.2rem;
+
+}
+.text-scientist-secound{
+  display: none;
+
+}
 .more-scientist {
   background-color: #fff;
   font-family: Urbanist-Semibold;
   color: #24253A;
   padding: 2rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
   font-size: 1.2rem;
   margin-bottom: 5rem;
 
 } 
-
 
                       /* menu bar */
 
@@ -676,6 +749,10 @@ footer{
     
     }  
   
+.kids-text-first {
+   margin-block-end: 0;
+    
+  } 
 .kids-text-secound {
   display: flex;
   background-color: #fff;  
@@ -683,14 +760,21 @@ footer{
   margin-top: 0;
   padding-left: 1.2rem;
   padding-right: 1.2rem;
-  padding-bottom: 1rem;
   font-size: 1.2rem;
-  
+  margin-bottom: 0%;
+  padding-bottom: 0;
+} 
+
+.text-scientist-secound {
+  display: flex;
+  padding-left: 1.2rem;
+  background-color: #fff;
+  margin: 0%;
+  padding-right: 1.2rem;
+  font-size: 1.2rem;
+
 }
-.kids-text-first {
- margin-block-end: 0;
-  
-}
+
 }
 
 
