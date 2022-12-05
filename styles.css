@@ -625,6 +625,10 @@ z-index: 1;
     display: none;
 
   }
+
+  .tag-news-program {
+    display: none;
+  }
 /*********************************        EXPLORE PAGE       *********************************/   
 
 .grid-explore {
