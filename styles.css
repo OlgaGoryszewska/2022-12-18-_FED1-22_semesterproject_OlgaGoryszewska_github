@@ -634,6 +634,7 @@ z-index: 1;
 .explore-main-colour{
   padding-bottom: 3rem;
   background-color: #EC6830;
+
 }
 .explore-page-header{
   margin-top: 0;
@@ -683,8 +684,10 @@ z-index: 1;
 .exhibition-main-colour {
  display:flex;
  flex-direction: column;
- background-color: #E9638A;
- margin-top: 0;
+ background-color: #EC6830;
+
+
+
 
 }
 .header-page-exhibition {
@@ -739,6 +742,7 @@ z-index: 1;
   font-display: flex;
   position: relative;
   top: -15rem;
+  font-size: 1rem;
 
 }
 
