@@ -702,10 +702,14 @@ display: none;
   align-content: stretch;
   align-items: center;
   margin-top: 0rem;
+  margin-bottom: -8rem;
   z-index: 1;
 
 
 }
+.visit-header{
+  margin-top: 1.2rem;
+  }
 
 .date-visit-inginere {
 margin-top: 0;
@@ -721,6 +725,7 @@ justify-content: center;
 align-content: stretch;
 align-items: center;
 z-index: 1;
+top: 20rem;
 
 }
 
@@ -762,7 +767,7 @@ z-index: 1;
   margin-bottom: -6%;
   margin-top: 0rem;
   z-index: 1;
-  margin-bottom: -4rem;
+  margin-bottom: -7rem;
 
 }
 .date-visit-night-museum{
@@ -778,7 +783,7 @@ z-index: 1;
   justify-content: center;
   align-content: stretch;
   align-items: center;
-  margin-top: -3rem;
+  top: 19rem;
   z-index: 1;
   margin-bottom: 0;
   }
@@ -838,6 +843,7 @@ z-index: 1;
     margin-top: -3rem;
     z-index: 1;
     margin-bottom: 0;
+    bottom: -19rem;
     }
 
 .header-text-exhibition-page{
@@ -1329,6 +1335,8 @@ margin-bottom: 0;
   grid-column: 1;
   grid-row: 3;
   align-self: end;
+  margin-bottom: 0;
+  top: 0rem;
   }
 .inginere-visit-img{
   grid-column: 1;
@@ -1356,6 +1364,7 @@ margin-bottom: 0;
   grid-column: 1;
   grid-row: 4;
   align-self: end;
+  top:0rem;
   }
 .night-museum-visit-img{
   grid-column: 1;
@@ -1380,6 +1389,7 @@ margin-bottom: 0;
   grid-column: 1;
   grid-row: 5;
   align-self: end;
+  bottom: 0;
   }
 .exhibition-loan-visit-img {
   grid-column: 1;
