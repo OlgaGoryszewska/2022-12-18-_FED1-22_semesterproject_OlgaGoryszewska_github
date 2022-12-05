@@ -677,10 +677,197 @@ z-index: 1;
 
 
 
+
 /*********************************        EXHIBITION PAGE       *********************************/  
+/*********************************        SPECIAL VISIT PAGE       *********************************/ 
+
+.special-visit-main-colour {
+  background-color: #8E8AF3;
+  padding-top: 1.2rem;
+}
+.newe-visit-inginere{
+  font-family: Satoshi-Black;
+  display:flex;
+  position: relative;
+  font-size: 2.5rem;
+  color: #fff;
+  background-color: #66DE61;
+  width: 14rem;
+  height: 5rem;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  margin-bottom: -6%;
+  margin-top: 0rem;
+  z-index: 1;
+
+}
+
+.date-visit-inginere {
+margin-top: 0;
+font-family: Satoshi-Black;
+display:flex;
+position: relative;
+font-size: 1.2rem;
+color: #fff;
+background-color: #E9638A;
+width: 10rem;
+height: 3rem;
+justify-content: center;
+align-content: stretch;
+align-items: center;
+margin-top: -3rem;
+z-index: 1;
+margin-bottom: 0;
+}
+
+.header-text-visit-page{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Urbanist-Semibold;
+  display:flex;
+  position: relative;
+  font-size: 3rem;
+  color: #24253A;
+  background-color: #fff;
+  padding: 1.2rem;
+  }
+
+.text-visit-page{
+  font-family: Urbanist-Semibold;
+  display:flex;
+  position: relative;
+  font-size: 1.2rem;
+  color: #24253A;
+  background-color: #fff;
+  margin-top: 0%;
+  padding: 1.2rem;
+  }
+
+.newe-visit-night-museum{
+  font-family: Satoshi-Black;
+  display:flex;
+  position: relative;
+  font-size: 2.5rem;
+  color: #fff;
+  background-color: #66DE61;
+  width: 14rem;
+  height: 5rem;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  margin-bottom: -6%;
+  margin-top: 0rem;
+  z-index: 1;
+
+}
+.date-visit-night-museum{
+  margin-top: 0;
+  font-family: Satoshi-Black;
+  display:flex;
+  position: relative;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #E9638A;
+  width: 10rem;
+  height: 3rem;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  margin-top: -3rem;
+  z-index: 1;
+  margin-bottom: 0;
+  }
+  .header-text-museum-page{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Urbanist-Semibold;
+    display:flex;
+    position: relative;
+    font-size: 3rem;
+    color: #24253A;
+    background-color: #fff;
+    padding: 1.2rem;
+    }
+.text-visit-museum-page{
+  font-family: Urbanist-Semibold;
+  display:flex;
+  position: relative;
+  font-size: 1.2rem;
+  color: #24253A;
+  background-color: #fff;
+  margin-top: 0%;
+  padding: 1.2rem;
+  }
+
+.newe-visit-exhibition{
+    font-family: Satoshi-Black;
+    display:flex;
+    position: relative;
+    font-size: 2.5rem;
+    color: #fff;
+    background-color: #66DE61;
+    width: 14rem;
+    height: 5rem;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    margin-bottom: -6%;
+    margin-top: 0rem;
+    z-index: 1;
+  
+  }
+  .date-visit-exhibition{
+    margin-top: 0;
+    font-family: Satoshi-Black;
+    display:flex;
+    position: relative;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #E9638A;
+    width: 10rem;
+    height: 3rem;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    margin-top: -3rem;
+    z-index: 1;
+    margin-bottom: 0;
+    }
+
+.header-text-exhibition-page{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Urbanist-Semibold;
+  display:flex;
+  position: relative;
+  font-size: 3rem;
+  color: #24253A;
+  background-color: #fff;
+  padding: 1.2rem;
+  }
+
+.text-visit-exhibition-page{
+  font-family: Urbanist-Semibold;
+  display:flex;
+  position: relative;
+  font-size: 1.2rem;
+  color: #24253A;
+  background-color: #fff;
+  margin-top: 0%;
+  padding: 1.2rem;
+  }
+.img-special-visit{
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+
 /*********************************        CONTACT PAGE       *********************************/   
 /*********************************        BUYTICKET PAGE       *********************************/   
-/*********************************        BUYSUCCESS PAGE       *********************************/    
+/*********************************        BUY SUCCESS PAGE       *********************************/    
 /*********************************        ABOUT US PAGE       *********************************/   
 
                    /*footer */ 
@@ -1106,7 +1293,97 @@ margin-bottom: 0;
   margin-bottom: 0;
 
   }
+
+/*********************************        SPECIAL VISIT  MEDIA PAGE       *********************************/  
+
+
+.grid-special-visit {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:5 ;
+  row-gap: 1rem; 
 } 
 
+.visit-header{
+  grid-column: 1;
+  grid-row: 1;
+  }
+
+  .visit-undertext{
+    grid-column: 1;
+    grid-row: 2;
+    }
+.newe-visit-inginere{
+  grid-column: 1;
+  grid-row: 3;
+  }
+.date-visit-inginere{
+  grid-column: 1;
+  grid-row: 3;
+  align-self: end;
+  }
+.inginere-visit-img{
+  grid-column: 1;
+  grid-row: 3;
+  }
+.header-text-visit-page{
+  grid-column: 2;
+  grid-row: 3;
+  }
+.text-visit-page{
+  grid-column: 2;
+  grid-row: 3;
+  align-self: end;
+  }
 
 
+
+.newe-visit-night-museum{
+  grid-column: 1;
+  grid-row: 4;
+ 
+  }
+
+.date-visit-night-museum{
+  grid-column: 1;
+  grid-row: 4;
+  align-self: end;
+  }
+.night-museum-visit-img{
+  grid-column: 1;
+  grid-row: 4;
+ 
+  }
+.header-text-museum-page{
+  grid-column: 2;
+  grid-row: 4;
+  }
+.text-visit-museum-page{
+  grid-column: 2;
+  grid-row: 4;
+  align-self: end;
+  }
+.newe-visit-exhibition{
+  grid-column: 1;
+  grid-row: 5;
+ 
+  }
+.date-visit-exhibition{
+  grid-column: 1;
+  grid-row: 5;
+  align-self: end;
+  }
+.exhibition-loan-visit-img {
+  grid-column: 1;
+  grid-row: 5;
+ 
+  }
+.header-text-exhibition-page{
+  grid-column: 2;
+  grid-row: 5;
+  }
+.text-visit-exhibition-page{
+  grid-column: 2;
+  grid-row: 5;
+  align-self: end;
+  }
