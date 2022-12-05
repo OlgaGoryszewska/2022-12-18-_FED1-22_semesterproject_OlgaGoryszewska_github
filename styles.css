@@ -681,6 +681,8 @@ z-index: 1;
 /*********************************        EXHIBITION PAGE       *********************************/  
 
 .exhibition-main-colour {
+ display:flex;
+ flex-direction: column;
  background-color: #E9638A;
  margin-top: 0;
 
@@ -698,9 +700,65 @@ z-index: 1;
  
  }
 
+.header-robot-exhibition,
+.header-biology,
+.header-evolution,
+ .header-cosmology {
+  font-display: flex;
+  position: relative;
+  color: #fff;
+  font-size: 2.5rem;
+  background-color: #24253A;
+  width: 15rem;
+  padding: 1.2rem;
+  z-index: 1;
+  top: -11rem;
+  
+ }
+
+ .header-biology {
+  width: auto;
+ }
+
+ .robot-exhibition-img,
+ .biology-img,
+ .archeology-img,
+ .cosmology-img{
+  height: 20rem;
+  object-fit: cover;
+ }
+
+.date-robot-exhibition,
+.date-biology,
+.date-evolution,
+.date-cosmology {
+  background-color: #24253A;
+  color: #fff;
+  padding: 1.4rem;
+  width: 14.6rem;
+  font-display: flex;
+  position: relative;
+  top: -15rem;
+
+}
+
+.cosmology-link,
+.evolution-link,
+.biology-link,
+.robot-exhibition-link {
+  color: #24253A;
+  background-color: #C98252;
+  font-family: Urbanist-Semibold;
+  font-size: 1.5rem;
+  padding: 1.2rem;
+  margin-bottom: 1.2rem;
+  margin-top: -12rem;
 
 
-
+}
+.fa-arrow-right {
+  padding-left: 1rem;
+}
 
 
 /*********************************        SPECIAL VISIT PAGE       *********************************/ 
