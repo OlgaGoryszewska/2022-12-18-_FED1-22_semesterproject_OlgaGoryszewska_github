@@ -679,6 +679,30 @@ z-index: 1;
 
 
 /*********************************        EXHIBITION PAGE       *********************************/  
+
+.exhibition-main-colour {
+ background-color: #E9638A;
+ margin-top: 0;
+
+}
+.header-page-exhibition {
+  padding-top: 1.2rem;
+  margin-top: 0;
+  color: #24253A;
+  background-color: #C98252;
+ 
+ }
+ .untertext-page-exhibition {
+  color: #24253A;
+  background-color: #C98252;
+ 
+ }
+
+
+
+
+
+
 /*********************************        SPECIAL VISIT PAGE       *********************************/ 
 .grid-special-visit{
 display: none;
