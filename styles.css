@@ -692,7 +692,7 @@ display: none;
 .newe-visit-inginere{
   font-family: Satoshi-Black;
   display:flex;
-  position: absolute;
+  position: relative;
   font-size: 2.5rem;
   color: #fff;
   background-color: #66DE61;
@@ -720,7 +720,6 @@ height: 3rem;
 justify-content: center;
 align-content: stretch;
 align-items: center;
-top: 10rem;
 z-index: 1;
 
 }
