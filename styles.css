@@ -680,15 +680,19 @@ z-index: 1;
 
 /*********************************        EXHIBITION PAGE       *********************************/  
 /*********************************        SPECIAL VISIT PAGE       *********************************/ 
-
+.grid-special-visit{
+display: none;
+}
 .special-visit-main-colour {
+  display: flex;
+  flex-direction: column;
   background-color: #8E8AF3;
   padding-top: 1.2rem;
 }
 .newe-visit-inginere{
   font-family: Satoshi-Black;
   display:flex;
-  position: relative;
+  position: absolute;
   font-size: 2.5rem;
   color: #fff;
   background-color: #66DE61;
@@ -697,9 +701,9 @@ z-index: 1;
   justify-content: center;
   align-content: stretch;
   align-items: center;
-  margin-bottom: -6%;
   margin-top: 0rem;
   z-index: 1;
+
 
 }
 
@@ -716,9 +720,9 @@ height: 3rem;
 justify-content: center;
 align-content: stretch;
 align-items: center;
-margin-top: -3rem;
+top: 10rem;
 z-index: 1;
-margin-bottom: 0;
+
 }
 
 .header-text-visit-page{
@@ -759,6 +763,7 @@ margin-bottom: 0;
   margin-bottom: -6%;
   margin-top: 0rem;
   z-index: 1;
+  margin-bottom: -4rem;
 
 }
 .date-visit-night-museum{
@@ -815,6 +820,7 @@ margin-bottom: 0;
     margin-bottom: -6%;
     margin-top: 0rem;
     z-index: 1;
+    margin-bottom: -4rem;
   
   }
   .date-visit-exhibition{
@@ -858,6 +864,9 @@ margin-bottom: 0;
   padding: 1.2rem;
   }
 .img-special-visit{
+  display: flex;
+  position: relative;
+  margin-top: 0;
   height: 20rem;
   width: 100%;
   object-fit: cover;
