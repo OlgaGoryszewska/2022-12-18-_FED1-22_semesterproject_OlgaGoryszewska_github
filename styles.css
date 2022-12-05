@@ -631,11 +631,46 @@ z-index: 1;
   }
 /*********************************        EXPLORE PAGE       *********************************/   
 
-.grid-explore {
+.explore-main-colour{
+  padding-bottom: 3rem;
   background-color: #EC6830;
 }
+.explore-page-header{
+  margin-top: 0;
+  padding-top: 1.2rem;
+}
 
+.researcher-header,
+.for-kids-header,
+.teacher-header,
+.header-explore-together {
+  display: flex;
+  background-color: #8E8AF3;
+  margin-left: 0;
+  padding: 1rem;
+  margin-bottom: 0;
+}
 
+.for-kids-header {
+  background-color: #66DE61;
+
+}
+.teacher-header{
+  background-color: #C98252;
+
+}
+.img-explore {
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
+}
+.explore-text{
+  background-color: #fff;
+  font-size: 1.2rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 1.2rem;
+  margin-top: 0;
+}
 
 
 
@@ -965,7 +1000,113 @@ footer{
   margin-top: 0rem;
   z-index: 1;
   
-  
-  
   } 
+
+/*********************************        EXPLORE  MEDIA PAGE       *********************************/   
+
+.grid-explore{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:7 ;
+  row-gap: 1rem; 
+
+
+}
+.img-explore {
+  height: 21rem;
+  grid-column: 1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.explore-page-undertext {
+  grid-column: 1;
+  grid-row: 2;
+
+}
+.explore-text{
+  grid-column: 2;
+  align-self: stretch;
+
+}
+.header-explore-together,
+.researcher-header,
+.teacher-header,
+.for-kids-header,
+.explore-page-header{
+  grid-column: 1;
+  height: 3rem;
+
+}
+.text-explore-together{
+grid-column: 2;
+grid-row-start: 3;
+align-self: stretch;
+margin-bottom: 0;
+
+}
+.header-explore-together {
+  grid-row: 3;
+  margin: 0;
+  align-self: end;
+  
+  }
+.explore-astronaut-img {
+  grid-row: 3;
+  align-self: stretch;
+  
+  }
+.explore-boy-img {
+  grid-row: 4;
+  height: 23.5rem;
+  
+  }
+.for-kids-header{
+  grid-row-start: 4;
+  align-self: end;
  
+  
+  }
+.for-kids-text{
+  grid-row: 4;
+  align-self: stretch;
+  margin-bottom: 0;
+
+  
+  }
+.teacher-img{
+  grid-row: 5;
+  height: 21rem;
+  margin-bottom: 0;
+  
+  }
+.teacher-header{
+  grid-row: 5;
+  align-self: end;
+
+  
+  }
+.teachers-text{
+  grid-row: 5;
+  align-self: stretch;
+  margin-bottom: 0;
+
+  }
+  .researcher-header{
+    grid-row: 6;
+    align-self: end;
+  
+    }
+.explore-teacher-img{
+  grid-row: 6;
+
+  }
+.researcher-text{
+  grid-row: 6;
+  align-self: stretch;
+  margin-bottom: 0;
+
+  }
+} 
+
+
+
