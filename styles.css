@@ -4,6 +4,20 @@
     font-family:"Urbanist-Semibold";
     src: url(fonts/Urbanist-SemiBold.ttf);
 }
+
+@font-face {
+  font-family:"Urbanist-Medium" ;
+  src: url(fonts/Urbanist-Medium.ttf);
+}
+@font-face {
+  font-family:"Satoshi-Black";
+  src: url(fonts/Satoshi-Black.ttf);
+}
+
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url(fonts/Satoshi-Medium.ttf);
+}
                         /* general code */
 
 
@@ -14,7 +28,7 @@ img {
 
 .logo {
     width: 120px;
-    margin: 1rem 1rem;
+    margin: 0.5rem 0.3rem;
 
 }
 
@@ -145,30 +159,43 @@ h1{
            
 }  
 #menu-checkbox:checked ~ .menu {
-  position: relative;
+  position: absolute;
    display: flex;    
    flex-direction: column;    
    float: inline-start;  
    border-bottom: 2px #fff;
-   
+   right: 0%;
+   width: 150px;  
 }   
+.ticket-icon,
 .hamburger-icon {
    display: flex;
    position: relative;
-   font-size: 2rem;
+   font-size: 1.5rem;
    align-self: center;
    float: right;
    color: #fff;    
    padding-top: 2.4rem;
-   padding-right: 1rem;     
+   padding-right: 2rem;     
+
+}   
+
+.ticket-icon {
+   padding-right: 2rem;     
 
 }   
   
 
                         /* SECTIONS IN THE MAIN */
+main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
                         
 
                         /*first section */
+
+
  .hero-section-fir {
     background-color: #24253A;
     display: flex;
@@ -515,57 +542,7 @@ z-index: 1;
 
 } 
 
-                      /* menu bar */
-
-.item-menu {
-   color: #fff;
-   background-color: #24253A;
-   font-family: Urbanist-Semibold;
-   text-decoration: none;
-   font-size: 2rem;   
-   padding: 2rem;  
-   border-bottom:1px #fff;
-   border-bottom-style: solid;  
-          
-  } 
-.item-menu:hover   {
-   font-size: 2.3rem;     
-   color: #66DE61; 
-   border-color: #66DE61;   
-   } 
-
-   
-.menu {
-    display: none;    
-        
- }  
-#menu-checkbox{
-     display: none; 
-            
-}  
-#menu-checkbox:checked ~ .menu {
-    display: flex;    
-    flex-direction: column;    
-    float: inline-start;  
-    border-bottom: 2px #fff;
-    
-}   
-.hamburger-icon {
-    display: flex;
-    position: relative;
-    font-size: 2rem;
-    align-self: center;
-    float: right;
-    color: #fff;    
-    padding-top: 2.4rem;
-    padding-right: 1rem;     
-
-}   
-.hamburger-icon:hover {
- color: #66DE61;
-
-}
-
+ 
 /*********************************        PROGRAM PAGE       *********************************/   
 
 .program-page-text {
@@ -1071,6 +1048,18 @@ margin-left: 0;
   flex-direction: row;
    
  }
+ .ticket-icon,
+.hamburger-icon {
+   font-size: 2rem;
+  
+}   
+
+.logo {
+
+  margin: 1rem 1.2rem;
+
+}
+
 
 .hero-section-fir{
   display: grid;
@@ -1228,7 +1217,7 @@ footer{
   grid-template-rows: 45px 45px 45px;
   background-color: #fff;
   border-radius: 25px;
-  width: 45rem;
+  width: 30rem;
   height: 9rem;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   } 
