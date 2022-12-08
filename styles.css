@@ -133,13 +133,13 @@ h1{
                        /* menu bar */
 
 .item-menu {
-  color: #fff;
-  background-color: #24253A;
+  color: #24253A;
+  background-color: #fff;
   font-family: Urbanist-Semibold;
   text-decoration: none;
   font-size: 1rem;   
   padding: 1.2rem;  
-  border-bottom:1px #fff;
+  border-bottom:1px #24253A;
   border-bottom-style: solid;  
          
  } 
@@ -163,9 +163,9 @@ h1{
    display: flex;    
    flex-direction: column;    
    float: inline-start;  
-   border-bottom: 2px #fff;
+   border: 2px #fff;
    right: 0%;
-   width: 150px;  
+   width: 300px;  
 }   
 .ticket-icon,
 .hamburger-icon {
