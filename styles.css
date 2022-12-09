@@ -950,7 +950,7 @@ top: 20rem;
 footer{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 9;
+  grid-template-rows: 10;
   background-color: #24253A;
   color: #fff;
   font-size: 1rem;
@@ -1030,16 +1030,57 @@ margin-left: 0;
   font-size: 1.5rem;
   
   } 
+
+
+.form-footer {
+  display: grid;
+  margin: 0rem;
+  width: 16rem;
+  grid-row: 9;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1;
+  align-items: center;
+  grid-column-start:1 ;
+  grid-column-end: 3;
+
+}
+
+
+#email-newsletter{
+
+  padding: 1rem;
+  
+  } 
+
+
+
+#email-button,
 #email-newsletter{
 
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row: 9;
-    width: 16rem;
-    height: 4rem;
-   
+    grid-row: 8;
     
     } 
+
+
+#email-button {
+
+  color: #fff;
+  background-color: #24253A;
+  grid-column: 2;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-family: Satoshi-Medium;
+  width:100px;
+  height:50px;
+  border-style: none;
+  margin-right: 1px;
+
+  
+}
+
 
                     /* */ 
 @media screen and (min-width:601px) {
