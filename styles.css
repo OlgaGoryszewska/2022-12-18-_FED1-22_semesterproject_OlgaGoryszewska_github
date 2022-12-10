@@ -1023,64 +1023,35 @@ margin-left: 0;
     grid-row: 7;
     
     } 
-.newsletter-text{
-  grid-column-start: 1;
+.subscribe-wrapper {
+  grid-column-start:1;
   grid-column-end: 3;
-  grid-row: 8;
-  font-size: 1.5rem;
-  
-  } 
-
-
-.form-footer {
-  display: grid;
-  margin: 0rem;
-  width: 16rem;
-  grid-row: 9;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1;
-  align-items: center;
-  grid-column-start:1 ;
-  grid-column-end: 3;
-
+  grid-row:9;
+  font-family: Urbanist-SemiBold;
 }
 
-
-#email-newsletter{
-
-  padding: 1rem;
-  
-  } 
-
+.subscribe-text {
+  display: flex;
+  position: relative;
+  margin-bottom: 1rem;
+  margin-top:1rem;
 
 
-#email-button,
-#email-newsletter{
+}
+.btn-subscribe,
+#subscribe-placeholder{
+  height: 2rem;
+  border-radius: 0;
+  border: none;
+}
 
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row: 8;
-    
-    } 
-
-
-#email-button {
-
-  color: #fff;
+.btn-subscribe {
   background-color: #24253A;
-  grid-column: 2;
-  justify-items: center;
-  align-items: center;
-  text-align: center;
-  font-family: Satoshi-Medium;
-  width:100px;
-  height:50px;
-  border-style: none;
-  margin-right: 1px;
-
-  
+  border: solid 1px #fff;
+  color:#fff ;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
-
 
                     /* */ 
 @media screen and (min-width:601px) {
@@ -1202,24 +1173,17 @@ footer{
     grid-row:5;
     
     } 
-.newsletter-text{
-  grid-column: 3;
-  grid-row: 2;
-  font-size: 1.5rem;
-  
+.subscribe-wrapper {
+    grid-column-start:3;
+    grid-column-end: 3;
+    grid-row:2;
   } 
-#email-newsletter{
-    grid-column: 3;
-    grid-row: 3;
-    width: 16rem;
-    height: 4rem;
-    
-    }  
-  
+
 .kids-text-first {
    margin-block-end: 0;
     
-  } 
+} 
+
 .kids-text-secound {
   display: flex;
   background-color: #fff;  
@@ -1241,7 +1205,6 @@ footer{
   font-size: 1.2rem;
 
 }
-
 
 .wraper-container-column {
   display: flex;
@@ -1407,15 +1370,17 @@ margin-bottom: 0;
   margin-bottom: 0;
 
   }
-  .researcher-header{
-    grid-row: 6;
-    align-self: end;
+.researcher-header{
+  grid-row: 6;
+  align-self: end;
   
-    }
+  }
+
 .explore-teacher-img{
   grid-row: 6;
 
   }
+
 .researcher-text{
   grid-row: 6;
   align-self: stretch;
@@ -1445,10 +1410,10 @@ margin-bottom: 0;
   grid-row: 1;
   }
 
-  .visit-undertext{
-    grid-column: 1;
-    grid-row: 2;
-    }
+.visit-undertext{
+  grid-column: 1;
+  grid-row: 2;
+  }
 .newe-visit-inginere{
   grid-column: 1;
   grid-row: 3;
@@ -1468,13 +1433,12 @@ margin-bottom: 0;
   grid-column: 2;
   grid-row: 3;
   }
+
 .text-visit-page{
   grid-column: 2;
   grid-row: 3;
   align-self: end;
   }
-
-
 
 .newe-visit-night-museum{
   grid-column: 1;
