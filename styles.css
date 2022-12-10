@@ -59,7 +59,6 @@ body{
     font-family: Urbanist-Semibold;
     font-size: 15px;
    
-  
   }
 
 h1{
@@ -143,13 +142,13 @@ h1{
   border-bottom-style: solid;  
          
  } 
+
 .item-menu:hover   {
   font-size: 1.2rem;     
   color: #66DE61; 
   border-color: #66DE61;   
   } 
 
-  
 .menu {
    display: none;    
        
@@ -643,11 +642,6 @@ z-index: 1;
 }
 
 
-
-
-
-
-
 /*********************************        EXHIBITION PAGE       *********************************/  
 
 .exhibition-main-colour {
@@ -751,8 +745,8 @@ z-index: 1;
   align-self: flex-end;
   margin-bottom: 2rem;
  
-  
 }
+
 .ticket-icon-dark{
   color: #24253A;
   display: flex;
@@ -772,28 +766,7 @@ z-index: 1;
  font-family: Satoshi-Black;
  color: #24253A;
  
-
-
 }
-
-
-
-
-
-
-/********************************* .      Cosmology mobile view       *****************************/
-.grid-exhibition-cosmology {
-  background-color: #EC6830;
-}
-.cosmology-main-text {
-  display: flex;
-  position: relative;
-  background-color: #fff;
-  font-size: 1.2rem;
-  padding: 1.2rem;
-  margin-top: 0;
-}
-
 
 /*********************************        SPECIAL VISIT PAGE       *********************************/ 
 .grid-special-visit{
@@ -903,6 +876,7 @@ top: 20rem;
   z-index: 1;
   margin-bottom: 0;
   }
+
   .header-text-museum-page{
     margin-top: 0;
     margin-bottom: 0;
@@ -914,6 +888,7 @@ top: 20rem;
     background-color: #fff;
     padding: 1.2rem;
     }
+
 .text-visit-museum-page{
   font-family: Urbanist-Semibold;
   display:flex;
@@ -1442,11 +1417,47 @@ margin-bottom: 0;
 
   }
 
-/**********************************       Cosmology       **************************************************/
+/**********************************        EXHIBITIONS          **************************************************/
 
 
   .grid-exhibition-cosmology {
     background-color: #EC6830;
+
+  }
+
+  .exhibition-main-content {
+    display:grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 2;
+    gap: 5rem;
+    justify-content: center;
+    align-items: start;
+    justify-items: center;
+    
+  }
+
+  .wrapp-one-ex{
+    grid-column: 1;
+    grid-row: 1;
+    
+  }
+
+  .wrapp-two-ex{
+    grid-column: 2;
+    grid-row: 1;
+    
+  }
+
+  .wrapp-three-ex{
+    grid-column: 1;
+    grid-row: 2;
+    
+  }
+
+  .wrapp-four-ex{
+    grid-column: 2;
+    grid-row: 2;
+    
   }
 
 /*********************************        SPECIAL VISIT  MEDIA PAGE       *********************************/  
@@ -1468,10 +1479,12 @@ margin-bottom: 0;
   grid-column: 1;
   grid-row: 2;
   }
+
 .newe-visit-inginere{
   grid-column: 1;
   grid-row: 3;
   }
+
 .date-visit-inginere{
   grid-column: 1;
   grid-row: 3;
@@ -1479,10 +1492,12 @@ margin-bottom: 0;
   margin-bottom: 0;
   top: 0rem;
   }
+
 .inginere-visit-img{
   grid-column: 1;
   grid-row: 3;
   }
+
 .header-text-visit-page{
   grid-column: 2;
   grid-row: 3;
@@ -1506,42 +1521,52 @@ margin-bottom: 0;
   align-self: end;
   top:0rem;
   }
+
 .night-museum-visit-img{
   grid-column: 1;
   grid-row: 4;
  
   }
+
 .header-text-museum-page{
   grid-column: 2;
   grid-row: 4;
   }
+
 .text-visit-museum-page{
   grid-column: 2;
   grid-row: 4;
   align-self: end;
   }
+
 .newe-visit-exhibition{
   grid-column: 1;
   grid-row: 5;
  
   }
+
 .date-visit-exhibition{
   grid-column: 1;
   grid-row: 5;
   align-self: end;
   bottom: 0;
   }
+
 .exhibition-loan-visit-img {
   grid-column: 1;
   grid-row: 5;
  
   }
+
 .header-text-exhibition-page{
   grid-column: 2;
   grid-row: 5;
   }
+
 .text-visit-exhibition-page{
   grid-column: 2;
   grid-row: 5;
   align-self: end;
   }
+
+
