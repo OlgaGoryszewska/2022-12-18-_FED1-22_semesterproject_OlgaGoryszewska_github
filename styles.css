@@ -667,26 +667,6 @@ z-index: 1;
  
  }
 
-.header-robot-exhibition,
-.header-biology,
-.header-evolution,
- .header-cosmology {
-  font-display: flex;
-  position: relative;
-  color: #fff;
-  font-size: 2.5rem;
-  background-color: #24253A;
-  width: 15rem;
-  padding: 1.2rem;
-  z-index: 1;
-  top: -11rem;
-  
- }
-
- .header-biology {
-  width: auto;
- }
-
  .robot-exhibition-img,
  .biology-img,
  .archeology-img,
@@ -695,38 +675,82 @@ z-index: 1;
   object-fit: cover;
  }
 
-.date-robot-exhibition,
-.date-biology,
-.date-evolution,
-.date-cosmology {
-  background-color: #24253A;
+ .cosmology-wrapp{
+  display:grid;
+  grid-template-columns: 3;
+  grid-template-rows: 4;
+  
+}  
+
+ .header-wrapp{
+  grid-row: 1;
+  grid-column: 1;
+  display: flexbox;
   color: #fff;
-  padding: 1.4rem;
-  width: 14.6rem;
-  font-display: flex;
-  position: relative;
-  top: -15rem;
-  font-size: 1rem;
+  background-color: #24253A;
+  height: 6rem;
+  width: 12rem;
+  z-index: 1;
+  padding-left: 1.2rem;
+  align-self: end;
+  
+ }
 
-}
+ .cosmology-img{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 1;
 
-.cosmology-link,
-.evolution-link,
-.biology-link,
-.robot-exhibition-link {
-  color: #24253A;
-  background-color: #C98252;
-  font-family: Urbanist-Semibold;
-  font-size: 1.5rem;
+ }
+
+ .header-date{
+  font-size: 1.2rem;
+  font-family: Urbanist-Medium;
+  margin-top: 0.6rem;
+ 
+ }
+ 
+ .header-cosmology{
+  margin-top:0.5rem;
+  font-size: 2rem;
+  margin-bottom: 0;
+  
+ }
+
+ .text-big{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 2;
   padding: 1.2rem;
+  padding-bottom: 5rem;
+  background-color: #fff;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
   margin-bottom: 1.2rem;
-  margin-top: -12rem;
+
+ }
+
+ .btn-exh{
+  
+  grid-column: 2;
+  grid-row: 2;
+  align-self: flex-end;
+  width: 5rem;
+  z-index: 1;
+  margin: 2rem;
+  margin-bottom: 3rem;
+
+ }
+
+ .tic-exh{
+  grid-column:1;
+  grid-row: 3;
+  z-index: 1;
+  color: #24253A;
+
+ }
 
 
-}
-.fa-arrow-right {
-  padding-left: 1rem;
-}
 /********************************* .      Cosmology mobile view       *****************************/
 .grid-exhibition-cosmology {
   background-color: #EC6830;
