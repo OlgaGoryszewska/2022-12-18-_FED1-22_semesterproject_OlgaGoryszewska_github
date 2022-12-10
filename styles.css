@@ -166,7 +166,9 @@ h1{
    border: 2px #fff;
    right: 0%;
    width: 300px;  
-}   
+}  
+
+
 .ticket-icon,
 .hamburger-icon {
    display: flex;
@@ -742,13 +744,28 @@ z-index: 1;
 
  }
 
- .tic-exh{
+ .icon-ticket-exh {
   grid-column:1;
-  grid-row: 3;
-  z-index: 1;
+  grid-row: 2;
+  align-self: flex-end;
+  margin-bottom: 2rem;
+ 
+  
+}
+.ticket-icon-dark{
   color: #24253A;
+  display: flex;
+  position: relative;
+  font-size: 1.5rem;
+  align-self: center;
+  float: right;   
+  padding-top: 2.4rem;
+  padding-right: 2rem;  
+  transform:rotate(45deg);
+}
 
- }
+
+
 
 
 /********************************* .      Cosmology mobile view       *****************************/
