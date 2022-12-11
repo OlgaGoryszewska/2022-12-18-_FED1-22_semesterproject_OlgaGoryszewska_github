@@ -1079,6 +1079,29 @@ top: 20rem;
 
   
 /*********************************        BUYTICKET PAGE       *********************************/   
+
+
+.buy-wrapp-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width:300px;
+  max-height: ;
+  justify-content: center;
+  margin:0 auto;
+  
+
+}
+
+.buy-wrapp{
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  justify-content: space-around;
+
+}
+
+
 /*********************************        BUY SUCCESS PAGE       *********************************/    
 /*********************************        ABOUT US PAGE       *********************************/   
 
