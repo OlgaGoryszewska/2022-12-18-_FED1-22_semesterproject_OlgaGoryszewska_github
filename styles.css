@@ -1,5 +1,10 @@
 
                         /* Fonts */
+
+@font-face {
+  font-family:"Urbanist-Bold" ;
+  src: url(fonts/Urbanist-Bold.ttf);
+}
 @font-face {
     font-family:"Urbanist-Semibold";
     src: url(fonts/Urbanist-SemiBold.ttf);
@@ -17,6 +22,11 @@
 @font-face {
   font-family: "Satoshi-Medium";
   src: url(fonts/Satoshi-Medium.ttf);
+}
+
+@font-face {
+  font-family:"Urbanist-Light" ;
+  src: url(fonts/Urbanist-Light.ttf);
 }
                         /* general code */
 
@@ -971,6 +981,103 @@ top: 20rem;
 
 
 /*********************************        CONTACT PAGE       *********************************/   
+
+
+.contact-main{
+  background-color:#D9D9D9;
+  margin:5%;
+
+   }
+
+.untertext-page-contact,
+.header-page-contact{
+  width: 100%;
+  margin-top: 0%;
+  color: #24253A;
+  
+   }
+
+.header-page-contact{
+  padding-top: 1.2rem;
+     }
+
+.untertext-page-contact{
+  padding-bottom: 1.2rem;
+     }
+
+.contact-form-wrapper{
+  margin:1.2rem;
+  background-color: #fff;
+  border-radius: 25px;
+  
+     }
+.contact-form-wrapper{
+  max-width: 320px;
+  max-height: 610px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  justify-items: center;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#text-form,
+#subject,
+#email,
+#name {
+  width: 70%;
+  padding: 0.7rem;
+  border: none;
+  border:1px solid #24253A;
+  margin:0.5rem;
+  margin-top: 0;
+}
+
+#text-form {
+  padding: 3rem;
+
+  
+}
+
+.contact-form-header{
+  font-size: 2rem;
+}
+
+.input_form {
+  padding:0.3rem;
+  border:1px solid #24253A;
+  border-bottom: none;
+  font-size: 0.7rem;
+  align-self: flex-start;
+  margin-left: 2.95rem;
+  margin-top: 1rem;
+  font-family: Urbanist-Light;
+
+}
+
+#submit-form {
+  width: 5rem;
+  height: 2.6rem;
+  font-family: Urbanist-Semibold;
+  background-color: #24253A;
+  border-radius: 0%;
+  border: none;
+  color: #fff;
+  margin: 1rem;
+ 
+}
+
+.contact-box {
+  background-color: #F5C650;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin:1.2rem;
+  padding-bottom: 3rem;
+  padding: 1.2rem;
+  font-family: Urbanist-Light;
+}
+
+  
 /*********************************        BUYTICKET PAGE       *********************************/   
 /*********************************        BUY SUCCESS PAGE       *********************************/    
 /*********************************        ABOUT US PAGE       *********************************/   
@@ -1569,4 +1676,38 @@ margin-bottom: 0;
   align-self: end;
   }
 
+/***********************************        CONTACT DESKTOP VIEW        ***********************************/
 
+.contact-main{
+ display:grid;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: 3;
+   }
+.header-page-contact{
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.untertext-page-contact{
+  grid-column: 1;
+  grid-row: 2;
+  align-self: baseline;
+}
+
+.contact-box{
+  margin-top:3rem;
+  grid-column: 1;
+  grid-row: 2;
+
+}
+
+.contact-form-wrapper{
+  margin-top:3rem;
+  grid-column: 2;
+  grid-row: 2;
+
+}
+
+
+
+}
