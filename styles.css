@@ -76,9 +76,10 @@ h1{
   font-family: Urbanist-Semibold;
   font-size: 3.2rem;
   color: #fff;
-  margin-top: 2rem;
   margin-left: 1.2rem;
   margin-bottom: 0.5rem;
+  padding: 1rem;
+  margin: 0 auto;
   
   }
 
@@ -807,7 +808,7 @@ display: none;
 
 }
 .visit-header{
-  margin-top: 1.2rem;
+  margin-left: 1rem;
   }
 
 .date-visit-inginere {
@@ -1081,6 +1082,11 @@ top: 20rem;
 /*********************************        BUYTICKET PAGE       *********************************/   
 
 
+.header-buy{
+  color: #24253A;
+
+}
+
 .buy-wrapp-container{
   display: flex;
   flex-direction: column;
@@ -1093,8 +1099,9 @@ top: 20rem;
 }
 
 .buy-wrapp{
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
   background-color: #fff;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -1104,7 +1111,14 @@ top: 20rem;
 
 }
 
-#input {
+.total {
+  
+  background-color: #fff;
+  padding: 1.2rem;
+  width: 120px;
+  font-family:Urbanist-Bold;
+  align-self: flex-end;
+  
 
 
 }
@@ -1753,6 +1767,7 @@ margin-bottom: 0;
  grid-template-columns: 1fr 1fr;
  grid-template-rows: 3;
  margin: 0 auto;
+ justify-items: center;
    }
 .header-page-contact{
   grid-column: 1;
@@ -1776,6 +1791,9 @@ margin-bottom: 0;
   margin-top:3rem;
   grid-column: 2;
   grid-row: 2;
+  width: 450px;
+  align-self: center;
+
 
 }
 /***********************************        ABOUT US DESKTOP VIEW        ***********************************/
@@ -1801,7 +1819,11 @@ margin-bottom: 0;
   grid-column: 3;
 
 }
+.text-small-about{
+  grid-column: 3;
+  height: 72px ;
 
+}
 
 
 }
