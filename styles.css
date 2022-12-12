@@ -1118,6 +1118,40 @@ top: 20rem;
 /*********************************        BUY SUCCESS PAGE       *********************************/    
 /*********************************        ABOUT US PAGE       *********************************/   
 
+.main-about {
+  background-color: #EC6830;
+  margin: 0 auto;
+  padding-top: 0.5rem;
+  
+}
+
+.header-page-about,
+.undertext-page-about{
+  color: #24253A;
+}
+
+.food-img {
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.text-small-about,
+.tex-big {
+  background-color: #fff;
+  color: #24253A;
+  padding: 1.2rem;
+  margin: 0 auto;
+}
+
+.tex-big {
+  font-size: 2rem;
+}
+
+
+
+
                    /*footer */ 
 footer{
   display: grid;
@@ -1742,6 +1776,29 @@ margin-bottom: 0;
   margin-top:3rem;
   grid-column: 2;
   grid-row: 2;
+
+}
+/***********************************        ABOUT US DESKTOP VIEW        ***********************************/
+.grid-about{
+  display:grid;
+  grid-template-columns: 350px 350px 350px;
+  gap: 1.2rem;
+  justify-content: center;
+  padding-bottom: 1.2rem;
+
+}
+.wrapp-about-first{
+  grid-column: 1;
+
+}
+
+.wrapp-about-secound{
+  grid-column: 2;
+
+}
+
+.wrapp-about-third{
+  grid-column: 3;
 
 }
 
