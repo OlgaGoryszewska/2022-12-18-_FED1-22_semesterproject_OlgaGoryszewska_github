@@ -1011,9 +1011,6 @@ top: 20rem;
   margin:1.2rem;
   background-color: #fff;
   border-radius: 25px;
-  
-     }
-.contact-form-wrapper{
   max-width: 320px;
   max-height: 610px;
   display: flex;
@@ -1028,7 +1025,7 @@ top: 20rem;
 #subject,
 #email,
 #name {
-  width: 70%;
+  width:80%;
   padding: 0.7rem;
   border: none;
   border:1px solid #24253A;
@@ -1088,6 +1085,15 @@ top: 20rem;
   color: #24253A;
 
 }
+
+
+.header-ticket{
+  background-color: #D9D9D9;
+  width: 100%;
+
+
+}
+
 
 .grid-buyticket{
   display: flex;
@@ -1277,6 +1283,34 @@ top: 20rem;
 
 .aside-payment {
   display: none;
+}
+
+.icon-success{
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  grid-column-start:1 ;
+  grid-column-end: 3;
+  grid-row: 1;
+
+}
+
+.card-inf-success{
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 6;
+  align-content: center;
+}
+
+.text1{
+  text-decoration: underline;
+  font-size: 1.2rem;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 2;
+}
+.go-home{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 6;
 }
 
 
