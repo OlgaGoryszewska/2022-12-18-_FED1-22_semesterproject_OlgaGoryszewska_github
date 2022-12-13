@@ -234,7 +234,7 @@ main{
   display:flex;
   position: relative;
   font-size: 2.5rem;
-  color: #fff;
+  color: #24253A;
   background-color: #66DE61;
   width: 14rem;
   height: 5rem;
@@ -282,9 +282,9 @@ spam {
 .buy-button-big{
   position: relative;
   top: -16rem;
-  color: #fff;
+  color: #24253A;
   background-color: #66DE61;
-  font-family: Urbanist-Semibold;
+  font-family: Urbanist-Bold;
   font-size: 1.5rem;
   text-decoration: none;
   padding-left: 2rem;
@@ -373,7 +373,7 @@ spam {
   grid-column-end: 3;
   grid-row: 3;
   position: relative;
-  color: #fff;
+  color: #24253A;
   background-color: #66DE61;
   font-family: Urbanist-Semibold;
   font-size: 1.2rem;
@@ -438,7 +438,7 @@ spam {
   display:flex;
   position: relative;
   font-size: 2.5rem;
-  color: #fff;
+  color: #24253A;
   background-color: #F5C650;
   width: 14rem;
   height: 5rem;
@@ -489,7 +489,7 @@ font-family: Satoshi-Black;
 display:flex;
 position: relative;
 font-size: 2.5rem;
-color: #fff;
+color: #24253A;
 background-color: #66DE61;
 width: 14rem;
 height: 5rem;
@@ -1683,7 +1683,7 @@ footer{
   display:flex;
   position: relative;
   font-size: 2.5rem;
-  color: #fff;
+  color: #24253A;
   background-color: #66DE61;
   width: 14rem;
   height: 5rem;
