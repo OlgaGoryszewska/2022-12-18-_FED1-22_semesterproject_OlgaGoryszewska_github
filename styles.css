@@ -790,12 +790,13 @@ display: none;
   background-color: #8E8AF3;
   padding-top: 1.2rem;
 }
-.newe-visit-inginere{
+
+.newe{
   font-family: Satoshi-Black;
   display:flex;
   position: relative;
   font-size: 2.5rem;
-  color: #fff;
+  color: #24253A;
   background-color: #66DE61;
   width: 14rem;
   height: 5rem;
@@ -808,6 +809,8 @@ display: none;
 
 
 }
+
+
 .visit-header{
   margin-left: 1rem;
   }
@@ -854,20 +857,6 @@ top: 20rem;
   }
 
 .newe-visit-night-museum{
-  font-family: Satoshi-Black;
-  display:flex;
-  position: relative;
-  font-size: 2.5rem;
-  color: #fff;
-  background-color: #66DE61;
-  width: 14rem;
-  height: 5rem;
-  justify-content: center;
-  align-content: stretch;
-  align-items: center;
-  margin-bottom: -6%;
-  margin-top: 0rem;
-  z-index: 1;
   margin-bottom: -7rem;
 
 }
@@ -913,20 +902,6 @@ top: 20rem;
   }
 
 .newe-visit-exhibition{
-    font-family: Satoshi-Black;
-    display:flex;
-    position: relative;
-    font-size: 2.5rem;
-    color: #fff;
-    background-color: #66DE61;
-    width: 14rem;
-    height: 5rem;
-    justify-content: center;
-    align-content: stretch;
-    align-items: center;
-    margin-bottom: -6%;
-    margin-top: 0rem;
-    z-index: 1;
     margin-bottom: -4rem;
   
   }
