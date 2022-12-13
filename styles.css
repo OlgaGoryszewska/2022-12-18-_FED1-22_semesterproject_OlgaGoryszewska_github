@@ -986,7 +986,7 @@ top: 20rem;
 
 
 .contact-main{
-  background-color:#D9D9D9;
+  background-color:#EC6830;
   margin:5%;
 
    }
@@ -1088,6 +1088,9 @@ top: 20rem;
 
 
 .header-ticket{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 1;
   background-color: #D9D9D9;
   width: 100%;
 
