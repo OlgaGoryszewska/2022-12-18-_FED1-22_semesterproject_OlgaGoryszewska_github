@@ -193,6 +193,7 @@ h1{
 }   
 
 .ticket-icon {
+  text-decoration: none;
    padding-right: 2rem;     
 
 }   
@@ -760,6 +761,7 @@ z-index: 1;
 }
 
 .ticket-icon-dark{
+
   color: #24253A;
   display: flex;
   position: relative;
