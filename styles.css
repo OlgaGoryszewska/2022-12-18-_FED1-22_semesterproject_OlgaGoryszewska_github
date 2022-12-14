@@ -1267,7 +1267,7 @@ top: 20rem;
   display: none;
 }
 
-.icon-success{
+.fa-circle-check{
   padding-bottom: 1rem;
   font-size: 3rem;
   grid-column-start:1 ;
