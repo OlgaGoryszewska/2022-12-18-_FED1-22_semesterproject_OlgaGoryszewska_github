@@ -1008,13 +1008,18 @@ top: 20rem;
 #text-form,
 #subject,
 #email,
-#name {
+#name,
+#message {
   width:80%;
   padding: 0.7rem;
   border: none;
   border:1px solid #24253A;
   margin:0.5rem;
   margin-top: 0;
+}
+
+#message {
+ height: 3rem;
 }
 
 #text-form {
