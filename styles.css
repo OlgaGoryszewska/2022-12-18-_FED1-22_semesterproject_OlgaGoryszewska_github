@@ -198,7 +198,16 @@ h1{
    padding-right: 2rem;     
 
 }   
+
+.fa-bars:hover{
+  color: #66DE61;    
+
+}   
   
+.ticket-icon:hover{
+  color: #66DE61;    
+
+}  
 
                         /* SECTIONS IN THE MAIN */
 main{
