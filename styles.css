@@ -319,6 +319,7 @@ span {
  gap: 1rem;
  margin-left: 0.7rem;
  margin-right: 0.7rem;
+ padding-bottom: 0.5rem;
          
  } 
  .program-wraper {
@@ -408,7 +409,7 @@ span {
   padding-top: 1rem;
   font-size: 1.2rem;
   background-color: #8E8AF3;
-  margin-top: -13rem;
+ 
 
 } 
 
@@ -1517,7 +1518,7 @@ margin-left: 0;
 }
 .more-program {
 position: relative;
-margin-top: -13rem;
+
 
 } 
 .hero-section-sec{
