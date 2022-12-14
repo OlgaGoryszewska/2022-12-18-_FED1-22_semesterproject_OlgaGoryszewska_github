@@ -89,6 +89,7 @@ h1{
     color: #fff;
     margin-left: 1.2rem;
     margin-top: 0.5rem;
+    text-decoration: underline;
   
   }
 
@@ -575,6 +576,12 @@ z-index: 1;
   color: #24253A;
 }
 
+.program-page-text {
+
+  margin-left: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
 .wraper-container-column{
   display: grid;
   grid-template-columns: 1fr;
@@ -799,6 +806,7 @@ z-index: 1;
 
 /*********************************        SPECIAL VISIT PAGE       *********************************/ 
 .grid-special-visit{
+margin-top: 0%;
 display: none;
 }
 .special-visit-main-colour {
@@ -827,12 +835,22 @@ display: none;
 
 }
 
+.program-page-text,
 .visit-undertext,
 .visit-header{
   margin-left: 1rem;
   color: #24253A;
   margin-top: 0%;
+  margin-bottom: 0;
+  padding-bottom: 0%;
+  padding-top: 0%;
   }
+
+  .program-page-text,
+  .visit-header{
+    margin-left: 0.1rem;
+   
+    }
 
 .date-visit-inginere {
 margin-top: 0;
