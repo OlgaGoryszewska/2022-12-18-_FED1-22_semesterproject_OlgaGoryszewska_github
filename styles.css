@@ -511,7 +511,7 @@ z-index: 1;
   display:flex;
   position: relative;
   font-size: 1.2rem;
-  color: #fff;
+  color: #24253A;
   background-color: #E9638A;
   width: 10rem;
   height: 3rem;
@@ -621,6 +621,7 @@ z-index: 1;
 .explore-page-header{
   margin-top: 0;
   padding-top: 1.2rem;
+  margin-left: 0;
 }
 
 .researcher-header,
@@ -632,6 +633,7 @@ z-index: 1;
   margin-left: 0;
   padding: 1rem;
   margin-bottom: 0;
+  color: #24253A;
 }
 
 .for-kids-header {
@@ -648,12 +650,12 @@ z-index: 1;
   object-fit: cover;
 }
 .explore-text{
+  display: flex;
   font-family: Urbanist-Semibold;
   background-color: #fff;
   font-size: 1.2rem;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 1.2rem;
-  margin-top: 0;
 }
 
 
@@ -670,6 +672,7 @@ z-index: 1;
   margin-top: 0;
   color: #24253A;
   background-color: #C98252;
+  margin-left: 0;
  
  }
  .untertext-page-exhibition {
@@ -731,7 +734,7 @@ z-index: 1;
  .text-big{
   grid-column-start: 1;
   grid-column-end: 3;
-  grid-row: 2;
+  grid-row: 3;
   padding: 1.2rem;
   padding-bottom: 5rem;
   background-color: #fff;
@@ -744,7 +747,7 @@ z-index: 1;
  .btn-exh{
   
   grid-column: 2;
-  grid-row: 2;
+  grid-row: 3;
   align-self: flex-end;
   width: 5rem;
   z-index: 1;
@@ -756,7 +759,7 @@ z-index: 1;
  .link-program,
  .icon-ticket-exh {
   grid-column:1;
-  grid-row: 2;
+  grid-row: 3;
   align-self: flex-end;
   margin-bottom: 2rem;
  
@@ -768,11 +771,13 @@ z-index: 1;
   display: flex;
   position: relative;
   font-size: 1.5rem;
-  align-self: center;
-  float: right;   
-  padding-top: 2.4rem;
-  padding-right: 2rem;  
-  transform:rotate(45deg);
+  align-self: end;
+  grid-column: 1;
+  grid-row: 3;
+  margin-left: 10rem;
+  margin-bottom: 3rem;
+
+  
 }
 
 .link-program {
@@ -1678,6 +1683,7 @@ footer{
 /*********************************        EXPLORE  MEDIA PAGE       *********************************/   
 
 .grid-explore{
+
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows:7 ;
@@ -1699,6 +1705,7 @@ footer{
 .explore-text{
   grid-column: 2;
   align-self: stretch;
+  margin-top: 0;
 
 }
 .header-explore-together,
@@ -1740,6 +1747,7 @@ margin-bottom: 0;
   
   }
 .for-kids-text{
+  margin-top: 0;
   grid-row: 4;
   align-self: stretch;
   margin-bottom: 0;
@@ -1759,6 +1767,7 @@ margin-bottom: 0;
   
   }
 .teachers-text{
+  margin-top: 0 ;
   grid-row: 5;
   align-self: stretch;
   margin-bottom: 0;
@@ -1776,8 +1785,9 @@ margin-bottom: 0;
   }
 
 .researcher-text{
-  grid-row: 6;
   align-self: stretch;
+  margin-top: 0;
+  grid-row: 6;
   margin-bottom: 0;
 
   }
