@@ -819,9 +819,11 @@ display: none;
 
 }
 
-
+.visit-undertext,
 .visit-header{
   margin-left: 1rem;
+  color: #24253A;
+  margin-top: 0%;
   }
 
 .date-visit-inginere {
@@ -830,7 +832,7 @@ font-family: Satoshi-Black;
 display:flex;
 position: relative;
 font-size: 1.2rem;
-color: #fff;
+color: #24253A;
 background-color: #E9638A;
 width: 10rem;
 height: 3rem;
@@ -875,7 +877,7 @@ top: 20rem;
   display:flex;
   position: relative;
   font-size: 1.2rem;
-  color: #fff;
+  color: #24253A;
   background-color: #E9638A;
   width: 10rem;
   height: 3rem;
@@ -920,7 +922,7 @@ top: 20rem;
     display:flex;
     position: relative;
     font-size: 1.2rem;
-    color: #fff;
+    color: #24253A;
     background-color: #E9638A;
     width: 10rem;
     height: 3rem;
