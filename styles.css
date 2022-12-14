@@ -158,6 +158,7 @@ h1{
   font-size: 1.2rem;     
   color: #66DE61; 
   border-color: #66DE61;   
+  transition-duration: 500ms; 
   } 
 
 .menu {
