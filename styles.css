@@ -560,11 +560,9 @@ z-index: 1;
  
 /*********************************        PROGRAM PAGE       *********************************/   
 
+.program-page-undertext,
 .program-page-text {
-  color: #fff;
-}
-.program-page-undertext{
-  color: #fff;
+  color: #24253A;
 }
 
 .wraper-container-column{
