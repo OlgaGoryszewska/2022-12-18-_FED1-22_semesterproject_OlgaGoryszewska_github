@@ -999,6 +999,7 @@ top: 20rem;
 .contact-main{
   background-color:#EC6830;
   margin:0 auto;
+  padding-bottom: 1.2rem;
 
    }
 
@@ -1113,6 +1114,7 @@ top: 20rem;
   padding-bottom: 3rem;
   padding: 1.2rem;
   font-family: Urbanist-Light;
+  
 }
 
   
@@ -2026,6 +2028,7 @@ margin-bottom: 0;
  grid-template-rows: 3;
  margin: 0 auto;
  justify-items: center;
+ 
    }
 .header-page-contact{
   grid-column: 1;
