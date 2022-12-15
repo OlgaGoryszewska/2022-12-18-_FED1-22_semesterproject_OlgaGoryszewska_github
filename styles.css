@@ -89,7 +89,6 @@ h1{
     color: #fff;
     margin-left: 1.2rem;
     margin-top: 0.5rem;
-    text-decoration: underline;
   
   }
 
@@ -1409,13 +1408,17 @@ footer{
   font-size: 1rem;
   margin-left: 1.2rem;
   margin-right: 1.2rem;
-  margin-bottom: 4rem;
   row-gap: 0.2rem;
   column-gap: 0;
 
   
                   
-}                 
+}  
+.copy  {
+margin-top: 3rem;
+grid-column: 1;   
+grid-row: 10;            
+}               
 
 .logo-footer{
 margin-left: 0;
@@ -1603,6 +1606,14 @@ footer{
     column-gap: 6rem;
                     
   }    
+
+  .copy  {
+    display: flex;
+    grid-column: 1/3;   
+    grid-row: 6;   
+    align-items: center;         
+    }   
+
 .admission-footer{
   grid-column-end: 2;
   }  
@@ -1629,7 +1640,7 @@ footer{
 .subscribe-wrapper {
     grid-column-start:3;
     grid-column-end: 3;
-    grid-row:2;
+    grid-row:3;
   } 
 
 .kids-text-first {
@@ -1905,6 +1916,7 @@ margin-bottom: 0;
   grid-template-columns: 1fr 1fr;
   grid-template-rows:5 ;
   row-gap: 1rem; 
+  padding-bottom: 1.2rem;
 } 
 
 .visit-header{
