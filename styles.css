@@ -318,6 +318,7 @@ span {
  } 
 
  .wraper-container {
+justify-content: space-between;
  display: flex;
  flex-wrap: wrap;
  flex-direction: column;
@@ -408,6 +409,7 @@ span {
 } 
 
 .more{
+  background-color: #fff;
   font-family: Urbanist-Semibold;
   color: #24253A;
   padding: 2rem;
@@ -418,6 +420,7 @@ span {
   width: 80px;
   margin-top: 1rem;
   margin-left: 1.2rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
  
 
@@ -561,6 +564,7 @@ z-index: 1;
   margin: 0%;
   padding-right: 1.2rem;
   font-size: 1.2rem;
+  padding-bottom: 1.2rem;
 
 }
 .text-scientist-secound{
@@ -571,11 +575,9 @@ z-index: 1;
   background-color: #fff;
   font-family: Urbanist-Semibold;
   color: #24253A;
-  padding: 2rem;
-  padding-top: 2rem;
   font-size: 1.2rem;
   margin-bottom: 5rem;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
 
 } 
 
@@ -1393,24 +1395,48 @@ top: 20rem;
   
 }
 
+.flexbox-testimonials{
+  background-color: #D9D9D9;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+ 
+  
+ 
+}
+
 .opinion{
+  display: flex;
   margin: 1.2rem;
   display: flex;
   flex-direction: row;
   background-color: #fff;
-  width:40rem
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 700px;
+  
 }
+
 .img-opinion{
+ width:30%;
+ height: 30%;
+ margin:1.2rem;
  border-radius: 50%;
   
 }
 
-@media screen and (min-width:601px) {
+.text-opinion{
+  font-family: Urbanist-light;
+  padding: 1rem;
+   
+ }
+
+@media screen and (min-width:1093px) {
 
   .grid-about{
     justify-content: center;
     display:grid;
-    grid-template-columns: 350px 350px ;
+    grid-template-columns: 350px 350px 350px ;
     padding: 1.2rem;
     gap: 1.2rem;
     padding-bottom: 1.2rem;
@@ -1430,12 +1456,13 @@ top: 20rem;
     .wrapp-about-first,
     .wrapp-about-secound{
       width: 350px;
+      
     
     }
     
   .text-small-about{
     grid-column: 3;
-    height: 72px ;
+    min-height: 150px ;
   
   }
 }
