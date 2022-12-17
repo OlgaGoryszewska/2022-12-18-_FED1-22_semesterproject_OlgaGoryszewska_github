@@ -134,6 +134,14 @@ h1{
 
                        /* menu bar */
 
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.item-menu2,
 .item-menu {
   color: #24253A;
   background-color: #fff;
@@ -145,6 +153,24 @@ h1{
   border-style: solid;  
          
  } 
+
+
+ .menu2{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+
+ }
+
+ .item-menu2{
+  background-color: #24253A;
+  color: #fff;
+  font-family: Satoshi-Black;
+}
+  
+ 
+         
+
 
 .item-menu:hover   {
   font-size: 1.2rem;     
@@ -180,14 +206,14 @@ h1{
    align-self: center;
    float: right;
    color: #fff;    
-   padding-top: 2.4rem;
-   padding-right: 2rem;     
+  
+     
 
 }   
 
 .ticket-icon {
   text-decoration: none;
-   padding-right: 2rem;     
+      
 
 }   
 
