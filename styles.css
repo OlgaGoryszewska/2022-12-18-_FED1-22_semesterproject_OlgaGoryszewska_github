@@ -201,13 +201,22 @@ header {
 
 .menu {
    display: none;    
+  } 
+
+@media screen and (min-width:599px) {
+
+  #menu-checkbox:checked ~ .menu {
+    margin-top: 10rem;
+    }
+  }
        
-}  
+ 
 #menu-checkbox{
     display: none; 
            
 }  
 #menu-checkbox:checked ~ .menu {
+  margin-top: 3rem;
   position: absolute;
    display: flex;    
    flex-direction: column;    
@@ -773,6 +782,7 @@ z-index: 1;
  }
 
  .cosmology-wrapp{
+  max-width: 25rem;
   display:grid;
   grid-template-columns: 3;
   grid-template-rows: 4;
@@ -2029,10 +2039,10 @@ margin-bottom: 0;
   }
 
   .exhibition-main-content {
-    display:grid;
-    grid-template-columns: 400px 400px;
-    grid-template-rows: 2;
-    gap: 5rem;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.2rem;
     justify-content: center;
     align-items: start;
     justify-items: center;
