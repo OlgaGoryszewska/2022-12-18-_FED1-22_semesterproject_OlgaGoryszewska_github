@@ -1393,6 +1393,41 @@ top: 20rem;
   
 }
 
+@media screen and (min-width:601px) {
+
+  .grid-about{
+    justify-content: center;
+    display:grid;
+    grid-template-columns: 350px 350px ;
+    padding: 1.2rem;
+    gap: 1.2rem;
+    padding-bottom: 1.2rem;
+  
+  }
+  .wrapp-about-first{
+    grid-column: 1;
+  
+  }
+  
+  .wrapp-about-secound{
+    grid-column: 2;
+  
+  }
+  
+  .wrapp-about-third,
+    .wrapp-about-first,
+    .wrapp-about-secound{
+      width: 350px;
+    
+    }
+    
+  .text-small-about{
+    grid-column: 3;
+    height: 72px ;
+  
+  }
+}
+
 .header-page-about,
 .undertext-page-about{
   color: #24253A;
@@ -2089,37 +2124,7 @@ margin-bottom: 0;
 
 }
 /***********************************        ABOUT US DESKTOP VIEW        ***********************************/
-.grid-about{
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr ;
-  grid-template-rows: 1fr 1fr;
-  gap: 1.2rem;
-  justify-content: center;
-  padding-bottom: 1.2rem;
 
-}
-.wrapp-about-first{
-  grid-column: 1;
-
-}
-
-.wrapp-about-secound{
-  grid-column: 2;
-
-}
-
-.wrapp-about-third,
-  .wrapp-about-first,
-  .wrapp-about-secound{
-    width: 350px;
-  
-  }
-  
-.text-small-about{
-  grid-column: 3;
-  height: 72px ;
-
-}
 /***********************************        BUY TICKET DESKTOP VIEW        ***********************************/
 
 .grid-buyticket{
