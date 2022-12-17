@@ -38,7 +38,8 @@ img {
 
 .logo {
     width: 120px;
-    margin: 0.5rem 0.3rem;
+    display: flex;
+   
 
 }
 
@@ -138,7 +139,7 @@ h1{
 header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .item-menu2,
@@ -154,23 +155,42 @@ header {
          
  } 
 
-
- .menu2{
-  display: flex;
-  justify-content: space-evenly;
-  position: relative;
-
- }
-
- .item-menu2{
-  background-color: #24253A;
-  color: #fff;
-  font-family: Satoshi-Black;
-}
+  .menu2{
+    display: none;
   
- 
+  
+   }
          
+  @media screen and (min-width:1089px) {
 
+    header {
+      justify-content: space-around;
+    }
+
+    .menu2{
+      display: flex;
+      justify-content: space-evenly;
+      position: relative;
+      font-size: 3rem;
+    
+     }
+     .item-menu2{
+      display: flex;
+      background-color: #24253A;
+      color: #fff;
+      font-family: Satoshi-Black;
+      font-size: 1rem;
+    }
+   
+    
+  .item-menu2:hover   {
+    font-size: 1.2rem;     
+    color: #66DE61; 
+    border-color: #66DE61;   
+    transition-duration: 500ms; 
+    } 
+       
+     }
 
 .item-menu:hover   {
   font-size: 1.2rem;     
@@ -204,8 +224,8 @@ header {
    position: relative;
    font-size: 1.5rem;
    align-self: center;
-   float: right;
-   color: #fff;    
+   color: #fff;  
+   margin-right: 1.2rem;  
   
      
 
@@ -213,9 +233,13 @@ header {
 
 .ticket-icon {
   text-decoration: none;
-      
+    
+}  
 
-}   
+.icons{
+  display: flex;
+  flex-direction: row;
+}
 
 .fa-bars:hover{
   color: #66DE61;    
@@ -1644,10 +1668,7 @@ margin-left: 0;
   padding-bottom: 0%;
      
    }
-.main-program{
 
-       
-  }
 }
 
      
