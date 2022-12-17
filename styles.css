@@ -45,36 +45,19 @@
 
 
  }
+ 
+/*
+ booton-big
+ booton-small
+ news
+ date-scientist
+ big-text*/
 
 img {
     max-width: 100%;
 
 }
 
-.logo {
-    width: 120px;
-    display: flex;
-   
-
-}
-
-.logo-footer {
-  width: 100px;
-  margin: 1rem 1rem;
-
-}
-
-
-header{
-  position: sticky;
-  top: 0%;
-  width: 100%;
-  background-color: var(--dark-blue);
-  border-bottom:1px #fff;
-  border-bottom-style: solid;
-  z-index: 2;
-
-}
 body{
     margin: 0%;
     background-color: var(--dark-blue);
@@ -151,6 +134,31 @@ h1{
                        /* menu bar */
 
 
+
+.logo {
+    width: 120px;
+    display: flex;
+   
+
+}
+
+.logo-footer {
+  width: 100px;
+  margin: 1rem 1rem;
+
+}
+
+
+header{
+  position: sticky;
+  top: 0%;
+  width: 100%;
+  background-color: var(--dark-blue);
+  border-bottom:1px #fff;
+  border-bottom-style: solid;
+  z-index: 2;
+
+}                     
 header {
   display: flex;
   align-items: center;
