@@ -46,12 +46,6 @@
 
  }
  
-/*
- booton-big
- booton-small
- news
- date-scientist
- big-text*/
 
 img {
     max-width: 100%;
@@ -764,6 +758,7 @@ z-index: 1;
   object-fit: cover;
 }
 .explore-text{
+  margin-top: 0%;
   display: flex;
   font-family: Urbanist-Semibold;
   background-color: var(--white);
@@ -1948,9 +1943,11 @@ footer{
   z-index: 1;
   
   } 
+} 
 
 /*********************************        EXPLORE  MEDIA PAGE       *********************************/   
 
+@media screen and (min-width:861px) {
 .grid-explore{
 
   display: grid;
@@ -1967,6 +1964,7 @@ footer{
 
 }
 .explore-page-undertext {
+  
   grid-column: 1;
   grid-row: 2;
 
@@ -2060,9 +2058,11 @@ margin-bottom: 0;
   margin-bottom: 0;
 
   }
+} 
 
 /**********************************        EXHIBITIONS          **************************************************/
 
+@media screen and (min-width:601px) {
 
   .grid-exhibition-cosmology {
     background-color: var(--orange);
