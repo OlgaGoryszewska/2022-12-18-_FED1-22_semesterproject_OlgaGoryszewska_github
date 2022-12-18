@@ -43,8 +43,60 @@
 --yellow:#F5C650;
 --pink:#E9638A;
 
-
  }
+
+/* buttons */
+
+ .buy-button-big{
+  position: relative;
+  top: -16rem;
+  color: var(--dark-blue);
+  background-color: var(--green);
+  font-family: Urbanist-Bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  left: 15rem;
+  line-height: 1rem;
+
+}
+
+.buy-button-big:hover {
+  color: var(--dark-blue);
+  border-color: var(--dark-blue);
+  background-color: var(--white);
+
+}
+
+
+.buy-button-small {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row: 3;
+  position: relative;
+  color: var(--dark-blue);
+  background-color: var(--green);
+  font-family: Urbanist-Semibold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  display: flex;
+  border-radius: 20px;
+  align-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  height: 33px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.buy-button-small:hover {
+  color: var(--dark-blue);
+  border-color: var(--dark-blue);
+  background-color: var(--white);
+
+
+}
  
 
 img {
@@ -358,29 +410,6 @@ span {
 }
 
 
-.buy-button-big{
-  position: relative;
-  top: -16rem;
-  color: var(--dark-blue);
-  background-color: var(--green);
-  font-family: Urbanist-Bold;
-  font-size: 1.5rem;
-  text-decoration: none;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 0.8rem;
-  padding-bottom: 0.8rem;
-  left: 15rem;
-  line-height: 1rem;
-
-}
-
-.buy-button-big:hover {
-  color: var(--dark-blue);
-  border-color: var(--dark-blue);
-  background-color: var(--white);
-
-}
                       /* secound section */
 
 
@@ -452,31 +481,6 @@ justify-content: space-between;
   
    } 
 
-.buy-button-small {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row: 3;
-  position: relative;
-  color: var(--dark-blue);
-  background-color: var(--green);
-  font-family: Urbanist-Semibold;
-  font-size: 1.2rem;
-  text-decoration: none;
-  display: flex;
-  border-radius: 20px;
-  align-content: space-between;
-  justify-content: space-around;
-  align-items: center;
-  height: 33px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.buy-button-small:hover {
-  color: var(--dark-blue);
-  border-color: var(--dark-blue);
-  background-color: var(--white);
-
-
-}
 .program-undertext {
   font-size: 1.2rem;
   color: var(--dark-blue);    
