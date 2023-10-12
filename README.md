@@ -1,6 +1,6 @@
 # Science Museum
 
-A webpage for a hotel, featuring posts.
+A webpage for Science Museum.
 
 ![Project Ceylon House img](https://github.com/OlgaGoryszewska/2022-12-18-_FED1-22_semesterproject_OlgaGoryszewska_github/blob/main/pictures/project-science-museum..jpg)
 
